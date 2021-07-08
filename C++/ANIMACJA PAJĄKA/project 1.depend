@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1555118434 source:c:\users\bhbo9\documents\cpp\project 1\abdomen.cpp
+	<fstream>
+	<string>
+	<fstream>
+	"abdomen.h"
+	<iostream>
+
+1555118505 source:c:\users\bhbo9\documents\cpp\project 1\body.cpp
+	<string>
+	<fstream>
+	"body.h"
+	<iostream>
+
+1555118505 source:c:\users\bhbo9\documents\cpp\project 1\head.cpp
+	<fstream>
+	<string>
+	<fstream>
+	"head.h"
+	<iostream>
+
+1555255479 source:c:\users\bhbo9\documents\cpp\project 1\main.cpp
+	<iostream>
+	"svg.h"
+	"spider.h"
+	"head.h"
+	"body.h"
+	"leg.h"
+	"abdomen.h"
+	"frame1.h"
+
+1555120589 source:c:\users\bhbo9\documents\cpp\project 1\leg.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<math.h>
+	"leg.h"
+
+1555120589 c:\users\bhbo9\documents\cpp\project 1\leg.h
+	<iostream>
+	<string>
+	"spider.h"
+
+1555067650 source:c:\users\bhbo9\documents\cpp\project 1\spider.cpp
+
+1555115510 c:\users\bhbo9\documents\cpp\project 1\spider.h
+	<string>
+	<iostream>
+
+1555096900 c:\users\bhbo9\documents\cpp\project 1\body.h
+	<string>
+	"spider.h"
+	<iostream>
+
+1555096900 c:\users\bhbo9\documents\cpp\project 1\abdomen.h
+	<string>
+	"spider.h"
+	<iostream>
+
+1555096900 c:\users\bhbo9\documents\cpp\project 1\head.h
+	<string>
+	"spider.h"
+	<iostream>
+
+1555258586 c:\users\bhbo9\documents\cpp\project 1\svg.h
+	<iostream>
+	<string>
+	<fstream>
+
+1555259373 c:\users\bhbo9\documents\cpp\project 1\frame1.h
+	<iostream>
+	"svg.h"
+	"spider.h"
+	"head.h"
+	"body.h"
+	"leg.h"
+	"abdomen.h"
+	<string>
+

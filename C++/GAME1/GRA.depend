@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1624293867 source:c:\users\bhbo9\documents\gra\gra\main.cpp
+	<string>
+	<fstream>
+	<vector>
+	"Load.h"
+	"interface.h"
+
+1624272933 c:\users\bhbo9\documents\gra\gra\load.h
+
+1624283915 source:c:\users\bhbo9\documents\gra\gra\load.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"Load.h"
+
+1624294431 source:c:\users\bhbo9\documents\gra\gra\interface.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"Interface.h"
+	"game.h"
+	"Load.h"
+	<time.h>
+	<cstdio>
+	<cstring>
+
+1624294431 c:\users\bhbo9\documents\gra\gra\interface.h
+	"Load.h"
+	<time.h>
+
+1624280489 c:\users\bhbo9\documents\gra\gra\game.h
+	"Load.h"
+	"interface.h"
+	<vector>
+
+1624294329 source:c:\users\bhbo9\documents\gra\gra\game.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"game.h"
+	"Load.h"
+	"interface.h"
+	<time.h>
+	<sstream>
+
