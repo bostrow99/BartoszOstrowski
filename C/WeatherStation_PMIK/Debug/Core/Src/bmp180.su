@@ -1,0 +1,8 @@
+bmp180.c:15:11:bmp_init	64	static
+bmp180.c:36:9:bmp_read_data	40	static
+bmp180.c:43:6:bmp_write_data	32	static
+bmp180.c:48:6:bmp_read_compensation_data	24	static
+bmp180.c:63:6:bmp_read_temp_and_pressure	32	static
+bmp180.c:78:8:bmp_get_temperature	32	static
+bmp180.c:88:8:bmp_get_pressure	56	static
+bmp180.c:115:8:bmp_get_altitude	24	static

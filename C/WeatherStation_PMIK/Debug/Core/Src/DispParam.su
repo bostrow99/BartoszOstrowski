@@ -1,0 +1,4 @@
+DispParam.c:20:6:DisplayPressure	24	static
+DispParam.c:40:6:DisplayTemperature	24	static
+DispParam.c:59:6:DisplayHumidity	24	static
+DispParam.c:79:6:RunDisp	24	static
