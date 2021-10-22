@@ -1,0 +1,7 @@
+.subckt wo_model + - OUT VCC VEE
+.lib UniversalOpamps2.sub
+XU2 N001 - VCC VEE OUT level.2 Avol=1Meg GBW=0.98Meg Slew=0.43Meg ilimit=25m rail=0.98 Vos=-0.79m phimargin=45 en=0 enk=0 in=0 ink=0 Rin=50Meg
+V1 N001 + 0.64m
+I1 + 0 230n
+I2 - 0 321n
+.ends wo_model
