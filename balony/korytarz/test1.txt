@@ -1,0 +1,6 @@
+szerokość korytarza 270
+wysokoś do sufitu 272
+wysokość mikrofonu 98
+odległość balonu od mikrofonu 470
+mikrofon w połowie korytarza
+głośność mikrofonu 60%
