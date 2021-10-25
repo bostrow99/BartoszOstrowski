@@ -13,7 +13,7 @@ reverb2=reverb2temp(:,1);
 [reverb3temp,~]=audioread("audytorium centralne/test2.wav");
 reverb3=reverb3temp(:,1);
 
-[test,fs]=audioread("przed wydzia³em/test2.wav");
+[test,~]=audioread("przed wydziaem/test2.wav");
 test=test(3001:243000,:);
 test=test(:,1);
 test(del:end,1)=zeros(length(test)-del+1,1);
@@ -152,6 +152,7 @@ title("Gitara FFT")
 
 %% Wykresy gitary
 
+
 figure();
 subplot(2,2,1);
 plot(guitar1R);
@@ -187,4 +188,19 @@ pause(6);
 sound(guitar2RLP,44100);
 pause(6);
 sound(guitar3RLP,44100);
+
+%%
+test_Oliwii=varWindow(guitar3R,0.05e-5,5000);
+plot(test_Oliwii)
+hold on
+plot(guitar3R)
+%%
+temp=find(test_Oliwii>0);
+
+end_value=temp(1);
+
+guitar_noisegate=guitar3R(1:end_value);
+plot(guitar_noisegate)
+sound(guitar_noisegate,fs)
+
 
