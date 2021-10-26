@@ -13,7 +13,7 @@ reverb2=reverb2temp(:,1);
 [reverb3temp,~]=audioread("audytorium centralne/test2.wav");
 reverb3=reverb3temp(:,1);
 
-[test,~]=audioread("przed wydziaem/test2.wav");
+[test,~]=audioread("przed wydzia³em/test2.wav");
 test=test(3001:243000,:);
 test=test(:,1);
 test(del:end,1)=zeros(length(test)-del+1,1);
@@ -190,10 +190,11 @@ pause(6);
 sound(guitar3RLP,44100);
 
 %%
-test_Oliwii=varWindow(guitar3R,0.05e-5,5000);
+test_Oliwii=varWindow(guitar3R,0.05e-2,5000);
 plot(test_Oliwii)
 hold on
 plot(guitar3R)
+hold off
 %%
 temp=find(test_Oliwii>0);
 
@@ -202,5 +203,17 @@ end_value=temp(1);
 guitar_noisegate=guitar3R(1:end_value);
 plot(guitar_noisegate)
 sound(guitar_noisegate,fs)
+%%
 
+guitar3Rtemp=guitar3R(70000:end);
+plot(guitar3Rtemp);
+%%
+dispspec_lin(guitar3Rtemp,fs)
 
+%%
+
+F200 = 10*fft(guitar3R(7e4:end));
+
+%guitarR3F = filter(F200, guitar3R);
+guitar3RF = bandstop(guitar3R, [190 210],fs);
+guitar3RF2 = bandstop(guitar3RF, [190 210],fs);
