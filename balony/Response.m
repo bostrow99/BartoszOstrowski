@@ -1,4 +1,4 @@
-classdef ReverbExtract
+classdef Response
 
     properties
         H;
@@ -8,15 +8,15 @@ classdef ReverbExtract
 
     methods
 
-        function obj = ReverbExtract(fileReverb,mode,fs_)
+        function obj = Response(fileName,mode,fs_)
             
             if mode == "f" %file
-                [hTemp, obj.fs]=audioread(fileReverb);
+                [hTemp, obj.fs]=audioread(fileName);
                 obj.h = hTemp(:,1);
                 obj.H = fft(obj.h); 
 
             elseif mode == "t" %table
-                obj.h = fileReverb;
+                obj.h = fileName;
                 obj.H = fft(obj.H);
                 obj.fs = 44100;
 
@@ -25,7 +25,7 @@ classdef ReverbExtract
                 end
 
             elseif mode == "b" %baloons
-                [reverbTemp, obj.fs]=audioread(fileReverb);
+                [reverbTemp, obj.fs]=audioread(fileName);
                 reverbTemp=reverbTemp(:,1);
                 lengthReverbTemp = length(reverbTemp);
     
