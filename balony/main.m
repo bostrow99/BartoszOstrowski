@@ -18,4 +18,4 @@ Reverb1 = Response("gg aula/test5.wav","b",fs);
 Guitar = Response("guitar.wav","f",fs);
 GuitarReverb = Guitar.filter(Reverb1.H,"f");
 
-%GuitarReverb.play;
+GuitarReverb.play;

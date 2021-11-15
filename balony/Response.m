@@ -91,13 +91,13 @@ classdef Response
                 
                 objLengthTemp = length(obj.H);
                 fileLengthTemp = length(fileName);
-                fileName(end:end+objLengthTemp,1) = 0;
-                obj.H(end:end+fileLengthTemp,1) = 0;
-                
-                HTemp = fileName.*obj.H;
-                hTemp = ifft(HTemp);
-                obj.h = hTemp;
-                obj.H = HTemp;
+                fileNameTemp = ifft(fileName);
+                fileNameTemp(end:end+objLengthTemp,1) = 0;
+                obj.h(end:end+fileLengthTemp,1) = 0;
+                fileNameFFT = fft(fileNameTemp);
+
+                obj.H = fileNameFFT.* fft(obj.h);
+                obj.h = ifft(obj.H);
 
             elseif strcmp(freq_or_time, "t")
 

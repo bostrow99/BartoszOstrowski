@@ -12,6 +12,7 @@ classdef Response
             
             if strcmp(mode,"f")  %file
                 [hTemp, obj.fs]=audioread(fileName);
+                
                 obj.h = hTemp(:, 1);
                 obj.H = fft(obj.h); 
 
@@ -84,22 +85,25 @@ classdef Response
             end
 
         end
-        function filter(obj, fileName, freq_or_time)
+        
+        function obj = filter(obj, fileName, freq_or_time)
             if strcmp(freq_or_time, "f")
+                
                 objLengthTemp = length(obj.H);
-                fileLengthTemp = length(fil)
-                fileName(end:end+objLengthTemp,1) = 0;
-                obj.h(end:end+objLengthTemp,1)
-                
-                
-                lengthFileTemp = length(fileName);
-                objTemp(end:end+lengthlengthFileTemp,1)=0;
-                reverbTemp(end:end+lengthTestTemp,1)=0;
+                fileLengthTemp = length(fileName);
+                fileNameTemp = ifft(fileName);
+                fileNameTemp(end:end+objLengthTemp,1) = 0;
+                obj.h(end:end+fileLengthTemp,1) = 0;
+                fileNameFFT = fft(fileNameTemp);
+
+                obj.H = fileNameFFT.* fft(obj.h);
+                obj.h = ifft()
 
             elseif strcmp(freq_or_time, "t")
 
-        end    
-        
+            end    
+        end
+
         function play(obj)
             sound(obj.h,obj.fs);
         end
