@@ -13,7 +13,7 @@ reverb2=reverb2temp(:,1);
 [reverb3temp,~]=audioread("audytorium centralne/test2.wav");
 reverb3=reverb3temp(:,1);
 
-[test,~]=audioread("przed wydzia³em/test2.wav");
+[test,~]=audioread("przed wydzialem/test2.wav");
 test=test(3001:243000,:);
 test=test(:,1);
 test(del:end,1)=zeros(length(test)-del+1,1);
