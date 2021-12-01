@@ -10,30 +10,35 @@ classdef Response
 
     methods
 
-        function obj = Response(fileName, mode, fs_) 
-            if strcmp(mode,"f")  %file
-                [hTemp, obj.fs]=audioread(fileName);  
-                obj.h = hTemp(:, 1);
-                obj.H = fft(obj.h); 
-            elseif strcmp(mode,"t")  %table
-                obj.h = fileName;
-                obj.H = fft(obj.h);
-                obj.fs = 44100;
-                if nargin == 3
-                    obj.fs = fs_;
+        function obj = Response(fileName, mode, fs_, fileName2) 
+            if or(nargin == 2, nargin == 3)
+                if strcmp(mode,"f")  %file
+                    [hTemp, obj.fs]=audioread(fileName);  
+                    obj.h = hTemp(:, 1);
+                    obj.H = fft(obj.h); 
+                elseif strcmp(mode,"t")  %table
+                    obj.h = fileName;
+                    obj.H = fft(obj.h);
+                    obj.fs = 44100;
+                    if nargin == 3
+                        obj.fs = fs_;
+                    end
                 end
-            elseif strcmp(mode,"b")  %baloons
-                [reverbTemp, obj.fs] = audioread(fileName);
-                reverbTemp = reverbTemp(:, 1);
-                lengthReverbTemp = length(reverbTemp);
-                [testTemp, ~] = audioread("przed wydzialem/test3.wav");
-                testTemp = testTemp(:, 1);
-                lengthTestTemp = length(testTemp);
-                testTemp(end:end+lengthReverbTemp, 1) = 0;
-                reverbTemp(end:end+lengthTestTemp, 1) = 0;      
-                obj.H = extract_reverb(testTemp,reverbTemp,15);
-                obj.h = ifft(obj.H);
+            elseif strcmp(mode,"b") 
+
+                    [reverbTemp, obj.fs] = audioread(fileName);
+                    reverbTemp = reverbTemp(:, 1);
+                    lengthReverbTemp = length(reverbTemp);
+                    [testTemp, ~] = audioread(fileName2);
+                    testTemp = testTemp(:, 1);
+                    lengthTestTemp = length(testTemp);
+                    testTemp(end:end+lengthReverbTemp, 1) = 0;
+                    reverbTemp(end:end+lengthTestTemp, 1) = 0;      
+                    obj.H = extract_reverb(testTemp,reverbTemp,15);
+                    obj.h = ifft(obj.H);
             end
+           % obj.h = obj.h/max(abs(obj.h));
+          %  obj.H = fft(obj.h);
         end
 
         function spectrum(obj, lin_or_dec)  
@@ -72,7 +77,9 @@ classdef Response
                 fileNameTemp = ifft(fileName);
             elseif strcmp(freq_or_time, "t")
                 fileNameTemp = fileName;
-            end                  
+            end  
+            obj.h = conv(obj.h, fileNameTemp);
+           %{
             objLengthTemp = length(obj.H);
             fileLengthTemp = length(fileName);
 
@@ -82,6 +89,9 @@ classdef Response
 
             obj.H = fileNameFFT.* fft(obj.h);
             obj.h = ifft(obj.H);
+           % obj.h = obj.h/max(abs(obj.h));
+            obj.H = fft(obj.h);
+           %}
         end
 
         function play(obj)
