@@ -9,7 +9,7 @@ loopLength = 10;
 
 for z=1:loopLength
    
-   a=addition(Guitar.h,d);
+   a(z)=addition(Guitar.h,d);
    b(z) = convolution(a(z),Reverb1.h);
    c(z) = b(z-1);
    d(z) = convolution(c(z),feedback.h*0.1);
