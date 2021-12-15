@@ -53,9 +53,9 @@ classdef Response
                 f = linspace(-obj.fs/2,obj.fs/2, length(obj.H));        
                 x = fftshift(20*log10(abs(obj.H)/length(obj.H)));
                 plot(f, x);               
-                xlabel('F [Hz]');
-                ylabel('Amplitude [dB]');
-                title(['Spectrum of ' inputname(1)]);
+                xlabel('F [Hz]','FontSize', 24);
+                ylabel('Amplitude [dB]','FontSize', 24);
+                title(['Spectrum of ' inputname(1)],'FontSize', 24);
             end
         end
 
@@ -63,12 +63,14 @@ classdef Response
             if nargin == 2 && strcmp(time, "t")
                 t = (0:length(obj.h)-1)/obj.fs;            
                 plot(t,obj.h);               
-                xlabel('time [s]');
-                ylabel('Amplitude');     
+                xlabel('time [s]','FontSize', 24);
+                ylabel('Amplitude','FontSize', 24);     
+                title(['Time waveform of ' inputname(1)],'FontSize', 24);
             elseif nargin == 1 
                 plot(obj.h);               
-                xlabel('sample number');
-                ylabel('Amplitude');
+                xlabel('sample number','FontSize', 24);
+                ylabel('Amplitude','FontSize', 24);
+                title(['Time waveform of ' inputname(1)],'FontSize', 24);
             end
         end
         

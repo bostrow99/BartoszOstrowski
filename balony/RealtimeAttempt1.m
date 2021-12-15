@@ -1,14 +1,14 @@
-buforLength = 512;
+buforLength = 256;
 
 % Audio imput and output
 deviceReader = audioDeviceReader;
 deviceReader.Driver = 'ASIO';
-deviceReader.Device ='ASIO UX1';
+deviceReader.Device ='ASIO4ALL v2';
 deviceReader.SamplesPerFrame = 1024; 
 
 deviceWriter = audioDeviceWriter('SampleRate',deviceReader.SampleRate);
 deviceWriter.Driver = 'ASIO';
-deviceWriter.Device = 'ASIO UX1';
+deviceWriter.Device = 'ASIO4ALL v2';
 
 
 %%
@@ -25,10 +25,7 @@ deviceWriter.Device = 'Realtek HD Audio 2nd output (Realtek(R) Audio)';
 tic
 while toc < 60
     x = step(deviceReader);
-    plot(x)
-    ylim([-1 1])
-    xlim([0 1024])
-    drawnow
+    step(deviceWriter,x);
 end
 
 %%
