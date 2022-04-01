@@ -27,7 +27,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <arm_math.h>
+
 #include <math.h>
 /* USER CODE END Includes */
 
@@ -38,26 +38,18 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define FullBufSize 1024
-#define DataSize 512
+#define FullBufSize 2048
+#define DataSize 1024
+#define Multiplicator 2
 
 
-/*
-#define l_CB0 3460*2
-#define l_CB1 2988*2
-#define l_CB2 3882*2
-#define l_CB3 4312*2
-#define l_AP0 480*2
-#define l_AP1 161*2
-#define l_AP2 46*2
-*/
-#define l_CB0 1730*2
-#define l_CB1 1494*2
-#define l_CB2 1941*2
-#define l_CB3 2156*2
-#define l_AP0 240*2
-#define l_AP1 81*2
-#define l_AP2 23*2
+#define l_CB0 1730*Multiplicator
+#define l_CB1 1494*Multiplicator
+#define l_CB2 1941*Multiplicator
+#define l_CB3 2156*Multiplicator
+#define l_AP0 240*Multiplicator
+#define l_AP1 81*Multiplicator
+#define l_AP2 23*Multiplicator
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -76,15 +68,15 @@ float floatBufor[DataSize];
 static volatile uint32_t* InBufPtr;
 static volatile uint32_t* OutBufPtr;
 
-static volatile float* InBufPtr2;
-static volatile float* OutBufPtr2;
 
-float wet = 1.0f;
+float wet = 0.7f;
 float time = 1.0f;
 
 int	Read_Ready = 0;
 int DSP_Ready = 0;
 
+int count=0;
+float count2;
 int cf0_lim, cf1_lim, cf2_lim, cf3_lim, ap0_lim, ap1_lim, ap2_lim;
 
 float cfbuf0[l_CB0], cfbuf1[l_CB1], cfbuf2[l_CB2], cfbuf3[l_CB3];
@@ -107,28 +99,23 @@ void SystemClock_Config(void);
 
 void HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef *hadc)
 {
+
 InBufPtr = &ADC_val[0];
 OutBufPtr = &DAC_val[DataSize];
-HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+//HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
 Read_Ready = 1;
+if(DSP_Ready == 0)HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_SET);
 }
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 {
 InBufPtr = &ADC_val[DataSize];
 OutBufPtr = &DAC_val[0];
-HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+//HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+if(DSP_Ready == 0)HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_SET);
 Read_Ready = 1;
-}
-
-void bufConvert(){
-	for(int n=0; n<DataSize; n++){
-
-		InBufPtr2[n]=(InBufPtr[n]-2^11)/2^11;
-	}
 
 }
-
 
 void processDSPstraight(){
 	for(int n=0; n<DataSize; n++){
@@ -216,12 +203,14 @@ float Do_Reverb(float inSample){
 }
 
 void processDSP(){
+	DSP_Ready = 0;
 	for(int n=0; n<DataSize; n++){
 
 		floatBufor[n] = (((float)(InBufPtr[n])-2048)/2048);
 		float sum = floatBufor[n];
 		sum = (1.0f-wet)*sum + wet*Do_Reverb(sum);
 		OutBufPtr[n]=(uint32_t)((sum*2048)+2048);
+
 	}
 
 }
@@ -259,6 +248,7 @@ int main(void)
   MX_TIM6_Init();
   MX_ADC1_Init();
   MX_DAC1_Init();
+  MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
 
   cf0_lim = (int)(time*l_CB0);
@@ -271,6 +261,7 @@ int main(void)
 
 
   HAL_TIM_Base_Start(&htim6);
+  HAL_TIM_Base_Start(&htim7);
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)ADC_val, FullBufSize);
   HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1, (uint32_t*)DAC_val, FullBufSize, DAC_ALIGN_12B_R);
 
@@ -283,12 +274,26 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if(Read_Ready == 1){
-	  processDSP();
+
+
+	  if(Read_Ready == 1){;
+	  __HAL_TIM_SET_COUNTER(&htim7,12);
+
+
+	  processDSPstraight();
+	  //processDSP();
+
+
+	  count=__HAL_TIM_GET_COUNTER(&htim7);
+	  count2 =(float)(count)*1e-5;
 	  Read_Ready = 0;
+
+	  DSP_Ready = 1;
+	  HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, GPIO_PIN_RESET);
 	  }
 	  else{
-		  HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+		 // HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+
 	  }
   }
   /* USER CODE END 3 */
