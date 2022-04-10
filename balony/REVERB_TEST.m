@@ -48,6 +48,13 @@ guitar2R=ifft(G1R);
 guitar3R=ifft(G3R);
 
 
+%%
+xcr=(xcorr(reverb2(:,1),reverb2(:,1)));
+tc=[(-length(reverb2(:,1))+1):(length(reverb2(:,1))-1)]./fs;
+plot(tc*300,20*log10(abs(xcr)))
+xlabel('[m]')
+ylabel('dB')
+
 %% Wykres przebiegów czasowych balonów
 
 figure();
