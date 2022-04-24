@@ -73,7 +73,22 @@ classdef Response
                 title(['Time waveform of ' inputname(1)],'FontSize', 24);
             end
         end
-        
+
+        function time_norm(obj, time)
+            if nargin == 2 && strcmp(time, "t")
+                t = (0:length(obj.h)-1)/obj.fs;            
+                plot(t,obj.h./max(obj.h));               
+                xlabel('time [s]','FontSize', 24);
+                ylabel('Amplitude','FontSize', 24);     
+                title(['Time waveform of ' inputname(1)],'FontSize', 24);
+            elseif nargin == 1 
+                plot(obj.h./max(obj.h));               
+                xlabel('sample number','FontSize', 24);
+                ylabel('Amplitude','FontSize', 24);
+                title(['Time waveform of ' inputname(1)],'FontSize', 24);
+            end
+        end
+
         function obj = filter(obj, fileName, freq_or_time)
             if strcmp(freq_or_time, "f")
                 fileNameTemp = ifft(fileName);
