@@ -18,7 +18,9 @@ feedback = Response("Speaker.wav","b",fs,"SpeakerToPiezo2.wav");
 feedback.h(460000:end,1)=0;
 feedback.H=fft(feedback.h);
 
+
 Test1= Response("przed wydzialem/test3.wav","f");
+
 Reverb1 = Response("audytorium centralne/test2.wav","b",fs,"przed wydzialem/test3.wav");
 Reverb2 = Response("korytarz/test2.wav","b",fs,"przed wydzialem/test3.wav");
 Reverb3 = Response("gg aula/test5.wav","b",fs,"przed wydzialem/test3.wav");

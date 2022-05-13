@@ -78,12 +78,12 @@ classdef Response
             if strcmp(lin_or_dec, "lin")
 
                 out = obj.h./max(obj.h);
-                e1=envelope(out,int32(1e-3*length(obj.h)),'peak');
+                e1=envelope(out,0.1,'peak');
 
             elseif strcmp(lin_or_dec, "dec")
                 
                 out = 20*log10((abs(obj.h)+1e-5)./max(abs(obj.h)));
-                e1=envelope(out,int32(1e-3*length(obj.h)),'peak');
+                e1=envelope(out,100,'peak');
 
             end
 
