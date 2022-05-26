@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1" viewBox="-20 -250 270 270">
+<title>Feed forward comb filter with K=1</title>
+<defs>
+	<pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+		<path d="M0,25v-25h25v25h-25" fill="none" stroke="#555" stroke-width=".5"/>
+	</pattern>
+	<clipPath id="plt"><rect x="0" y="-250" width="250" height="250"/></clipPath>
+</defs>
+<rect y="-250" width="250" height="250" fill="url(#grid)" stroke="black"/>
+<g font-size="9" fill="black" text-anchor="middle" font-family="times">
+	<g font-size="10"><g text-anchor="end">
+	<text x="224" y="-240">α = −1</text><text x="224" y="-230">α = −0.75</text>
+	<text x="224" y="-220">α = −0.5</text></g><text x="125" y="18">ω (rad/s)</text>
+	<text x="-11" y="-125" transform="rotate(-90,-11,-125)">⎜H(<tspan font-style="italic">
+	e</tspan><tspan dy="-3" font-size="8">jω</tspan><tspan dy="3">)⎜</tspan></text></g>
+	<text y="8"><tspan x="0">0</tspan><tspan x="25">π</tspan><tspan x="50">2π</tspan>
+	<tspan x="75">3π</tspan><tspan x="100">4π</tspan><tspan x="125">5π</tspan>
+	<tspan x="150">6π</tspan><tspan x="175">7π</tspan><tspan x="200">8π</tspan>
+	<tspan x="225">9π</tspan><tspan x="243">10π</tspan></text>
+	<g transform="translate(-6)">
+	<text y="0">0</text><text y="-48">0.5</text><text y="-98">1</text>
+	<text y="-148">1.5</text><text y="-198">2</text><text y="-243">2.5</text>
+	</g>
+</g>
+<g fill="none" clip-path="url(#plt)">
+	<g id="p1">
+	<path d="M-25,-200 Q -22.5,-200 -20,-190.2 -17.5,-180.4 -15,-161.8 -12.5,-143.2 
+	-10,-117.6 -7.5,-91.9 -5,-61.8 -2.5,-31.7 0,0 2.5,-31.7 5,-61.8 7.5,-91.9 10,-117.6 
+	12.5,-143.2 15,-161.8 17.5,-180.4 20,-190.2 22.5,-200 25,-200 M225,-243h20" 
+	stroke="blue"/>
+	<path id="p2" d="M-25,-175 Q -22.5,-175 -20,-166.6 -17.5,-158.2 -15,-142.3 
+	-12.5,-126.4 -10,-104.8 -7.5,-83.1 -5,-59.1 -2.5,-31.7 0,-25 2.5,-31.7 5,-59.1 
+	7.5,-83.1 10,-104.8 12.5,-126.4 15,-142.3 17.5,-158.2 20,-166.6 22.5,-175 25,-175 
+	M225,-233h20" stroke="red"/>
+	<path d="M-25,-150 Q -22.5,-150 -20,-143.5 -17.5,-137 -15,-124.9 -12.5,-112.7 -10,-97 
+	-7.5,-81 -5,-66.4 -2.5,-51.1 0,-50 2.5,-51.1 5,-66.4 7.5,-81 10,-97 12.5,-112.7 
+	15,-124.9 17.5,-137 20,-143.5 22.5,-150 25,-150 M225,-223h20" stroke="magenta"/>
+	</g>
+	<use xlink:href="#p1" x="50"/><use xlink:href="#p1" x="100"/><use xlink:href="#p1" x="150"/>
+	<use xlink:href="#p1" x="200"/><use xlink:href="#p1" x="250"/>
+</g>
+</svg>

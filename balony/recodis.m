@@ -11,29 +11,128 @@ Reverb2 = Response("korytarz/test2.wav","f",fs);
 Reverb3 = Response("gg aula/test5.wav","f",fs);
 Reverb4 = Response("sala 133/test2.wav","f",fs);
 %%
-figure(1)
-subplot(2,2,1)
-Reverb1.time_norm("lin","t")
-title("audytorium centralne",'FontSize', 24)
-%set(gca,'XLim',[0 2])
-%set(gca,'YLim',[-60 0])
-subplot(2,2,2)
-Reverb2.time_norm("dec","t")
-title("Korytarz 4C",'FontSize', 24)
-set(gca,'XLim',[0 2])
-set(gca,'YLim',[-60 0])
-subplot(2,2,3)
-Reverb3.time_norm("dec","t")
-title("aula gmach główny",'FontSize', 24)
-set(gca,'XLim',[0 8])
-set(gca,'YLim',[-60 0])
-subplot(2,2,4)
-Reverb4.time_norm("dec","t")
-title("próbka testowa",'FontSize', 24)
-set(gca,'XLim',[0 0.5])
-set(gca,'YLim',[-60 0])
-%%
+figure(1);
+subplot(2,1,1);
+Test1.time_norm("dec","t",1e-3);
+title("Przebieg czasowy - Próba kontrolna",'FontSize', 24);
+set(gca,'XLim',[0 0.5]);
+set(gca,'YLim',[-85 3]);
+subplot(2,1,2);
+Test1.time_norm("lin","t",1e-3);
+title("Przebieg czasowy - Próba kontrolna",'FontSize', 24);
+set(gca,'XLim',[0 0.5]);
+set(gca,'YLim',[0 1]);
 
+figure(2);
+subplot(2,1,1);
+Reverb1.time_norm("dec","t",1e-3);
+title("Przebieg czasowy - Audytorium centralne",'FontSize', 24);
+set(gca,'XLim',[0 2]);
+set(gca,'YLim',[-70 3]);
+subplot(2,1,2);
+Reverb1.time_norm("lin","t",1e-3);
+title("Przebieg czasowy - Audytorium centralne",'FontSize', 24);
+set(gca,'XLim',[0 2]);
+set(gca,'YLim',[0 1]);
+
+figure(3);
+subplot(2,1,1);
+Reverb2.time_norm("dec","t",5e-4);
+title("Przebieg czasowy - Korytarz 4C",'FontSize', 24);
+set(gca,'XLim',[0 2]);
+set(gca,'YLim',[-70 3]);
+subplot(2,1,2);
+Reverb2.time_norm("lin","t",5e-4);
+title("Przebieg czasowy - Korytarz 4C",'FontSize', 24);
+set(gca,'XLim',[0 2]);
+set(gca,'YLim',[0 1]);
+
+figure(4);
+subplot(2,1,1);
+Reverb3.time_norm("dec","t");
+title("Przebieg czasowy - Aula gmachu głównego",'FontSize', 24);
+set(gca,'XLim',[0 7.8]);
+set(gca,'YLim',[-70 3]);
+subplot(2,1,2);
+Reverb3.time_norm("lin","t");
+title("Przebieg czasowy - Aula gmachu głównego",'FontSize', 24);
+set(gca,'XLim',[0 7.8]);
+set(gca,'YLim',[0 1]);
+
+figure(5);
+subplot(2,1,1);
+Reverb4.time_norm("dec","t",2e-3);
+title("Przebieg czasowy - Sala 133",'FontSize', 24);
+set(gca,'XLim',[0 1.8]);
+set(gca,'YLim',[-70 3]);
+subplot(2,1,2);
+Reverb4.time_norm("lin","t",2e-3);
+title("Przebieg czasowy - Sala 133",'FontSize', 24);
+set(gca,'XLim',[0 1.8]);
+set(gca,'YLim',[0 1]);
+
+%%
+figure(6);
+subplot(2,1,1);
+Test1.spectrum_norm("dec");
+title("Widmo - Próba kontrolna",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[-80 0]);
+subplot(2,1,2);
+Test1.spectrum_norm("lin");
+title("Widmo - Próba kontrolna",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[0 1]);
+
+figure(7);
+subplot(2,1,1);
+Reverb1.spectrum_norm("dec");
+title("Widmo - Audytorium centralne",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[-80 0]);
+subplot(2,1,2);
+Reverb1.spectrum_norm("lin");
+title("Widmo - Audytorium centralne");
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[0 1]);
+figure(8);
+subplot(2,1,1);
+Reverb2.spectrum_norm("dec");
+title("Widmo - Korytarz 4C",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[-80 0]);
+subplot(2,1,2);
+Reverb2.spectrum_norm("lin");
+title("Widmo - Korytarz 4C",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[0 1]);
+
+figure(9);
+subplot(2,1,1);
+Reverb3.spectrum_norm("dec");
+title("Widmo - Aula gmach główny",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[-80 0]);
+subplot(2,1,2);
+Reverb3.spectrum_norm("lin");
+title("Widmo - Aula gmach główny",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[0 1]);
+
+figure(10);
+subplot(2,1,1);
+Reverb4.spectrum_norm("dec");
+title("Widmo - Sala 133",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[-80 0]);
+subplot(2,1,2);
+Reverb4.spectrum_norm("lin");
+title("Widmo - Sala 133",'FontSize', 24);
+set(gca,'XLim',[0 2e4]);
+set(gca,'YLim',[0 1]);
+
+%%
+%{
 xr=Reverb2.h;
 xcr=(xcorr(xr(:,1),xr(:,1)));
 tc=[(-length(xr(:,1))+1):(length(xr(:,1))-1)]./fs;
@@ -41,3 +140,4 @@ figure();
 plot(tc*300,20*log10(abs(xcr)))
 xlabel('[m]')
 ylabel('dB')
+%}
