@@ -60,12 +60,10 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
-#define LD4_Pin GPIO_PIN_2
-#define LD4_GPIO_Port GPIOA
-#define LD3_Pin GPIO_PIN_3
-#define LD3_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_5
 #define LD2_GPIO_Port GPIOA
+#define LD3_Pin GPIO_PIN_10
+#define LD3_GPIO_Port GPIOB
 #define LD5_Pin GPIO_PIN_10
 #define LD5_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
@@ -74,6 +72,8 @@ void Error_Handler(void);
 #define TCK_GPIO_Port GPIOA
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
+#define LD4_Pin GPIO_PIN_5
+#define LD4_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
