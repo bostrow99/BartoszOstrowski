@@ -16,28 +16,28 @@ Reverb4 = Response("sala 133/test2.wav","f",fs);
 figure(1);
 subplot(2,1,1);
 Test1.time_norm("dec","t");
-title("Przebieg czasowy - Próba kontrolna (teren otwarty)", ...
-    'FontSize', 24);
+title("Przebieg czasowy - nagranie kontrolne (teren otwarty)", ...
+    'FontSize', 18);
 set(gca,'XLim',[0 0.5]);
 set(gca,'YLim',[-85 3]);
 subplot(2,1,2);
 Test1.time_norm("lin","t");
-title("Przebieg czasowy - Próba kontrolna (teren otwarty)", ...
-    'FontSize', 24);
+title("Przebieg czasowy - nagranie kontrolne (teren otwarty)", ...
+    'FontSize', 18);
 set(gca,'XLim',[0 0.5]);
 set(gca,'YLim',[0 1]);
 
 figure(2);
 subplot(2,1,1);
 Test2.time_norm("dec","t");
-title("Przebieg czasowy - Próba kontrolna (komora bezechowa)", ...
-    'FontSize', 24);
+title("Przebieg czasowy - nagranie kontrolne (komora bezechowa)", ...
+    'FontSize', 18);
 set(gca,'XLim',[0 0.5]);
 set(gca,'YLim',[-85 3]);
 subplot(2,1,2);
 Test2.time_norm("lin","t");
-title("Przebieg czasowy - Próba kontrolna (komora bezechowa)", ...
-    'FontSize', 24);
+title("Przebieg czasowy - nagranie kontrolne (komora bezechowa)", ...
+    'FontSize', 18);
 set(gca,'XLim',[0 0.5]);
 set(gca,'YLim',[0 1]);
 
@@ -94,24 +94,24 @@ set(gca,'YLim',[0 1]);
 figure(7);
 subplot(2,1,1);
 Test1.spectrum_norm("dec");
-title("Widmo - Próba kontrolna (teren otwarty)",'FontSize', 24);
+title("Widmo - Nagranie kontrolne (teren otwarty)",'FontSize', 18);
 set(gca,'XLim',[20 2e4]);
 set(gca,'YLim',[-80 0]);
 subplot(2,1,2);
 Test1.spectrum_norm("lin");
-title("Widmo - Próba kontrolna (teren otwarty)",'FontSize', 24);
+title("Widmo - Nagranie kontrolne (teren otwarty)",'FontSize', 17);
 set(gca,'XLim',[20 2e4]);
 set(gca,'YLim',[0 1]);
 
 figure(8);
 subplot(2,1,1);
 Test2.spectrum_norm("dec");
-title("Widmo - Próba kontrolna (komora bezechowa)",'FontSize', 24);
+title("Widmo - Nagranie kontrolne (komora bezechowa)",'FontSize', 17);
 set(gca,'XLim',[20 2e4]);
 set(gca,'YLim',[-80 0]);
 subplot(2,1,2);
 Test2.spectrum_norm("lin");
-title("Widmo - Próba kontrolna (komora bezechowa)",'FontSize', 24);
+title("Widmo - Nagranie kontrolne (komora bezechowa)",'FontSize', 17);
 set(gca,'XLim',[20 2e4]);
 set(gca,'YLim',[0 1]);
 
