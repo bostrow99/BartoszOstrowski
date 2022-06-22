@@ -43,18 +43,18 @@ function spectrum(obj, lin_or_dec)
         f = linspace(-obj.fs/2,obj.fs/2, length(obj.H));
         x = fftshift(abs((obj.H))/length(obj.H));         
         plot(f, x,'color', [0.3 0.3 0.3]);          
-        xlabel('F [Hz]','FontSize', 16);
-        ylabel('Amplitude','FontSize', 16);   
+        xlabel('F [Hz]','FontSize', 24);
+        ylabel('Amplitude','FontSize', 24);   
         title(['Spectrum of ' inputname(1)]);
-        set(gca,'FontSize', 12)
+        set(gca,'FontSize', 18)
     elseif strcmp(lin_or_dec, "dec")
         f = linspace(-obj.fs/2,obj.fs/2, length(obj.H));        
         x = fftshift(20*log10(abs(obj.H)/length(obj.H)));
         plot(f, x,'color', [0.3 0.3 0.3]);               
-        xlabel('F [Hz]','FontSize', 16);
-        ylabel('Amplitude [dB]','FontSize', 16);
-        title(['Spectrum of ' inputname(1)],'FontSize', 16);
-        set(gca,'FontSize', 12)
+        xlabel('F [Hz]','FontSize', 24);
+        ylabel('Amplitude [dB]','FontSize', 24);
+        title(['Spectrum of ' inputname(1)],'FontSize', 24);
+        set(gca,'FontSize', 18)
     end
 end
 
@@ -64,18 +64,18 @@ function spectrum_norm(obj, lin_or_dec)
         f = linspace(-obj.fs/2,obj.fs/2, length(obj.H));
         x = fftshift(abs((obj.H))/length(obj.H));         
         semilogx(f, x/max(x),'color', [0.3 0.3 0.3]);          
-        xlabel('F [Hz]','FontSize', 17);
-        ylabel('Amplitude','FontSize', 17);   
+        xlabel('F [Hz]','FontSize', 24);
+        ylabel('Amplitude','FontSize', 24);   
         title(['Spectrum of ' inputname(1)]);
-        set(gca,'FontSize', 13)
+        set(gca,'FontSize', 18)
     elseif strcmp(lin_or_dec, "dec")
         f = linspace(-obj.fs/2,obj.fs/2, length(obj.H));        
         x = fftshift(20*log10(abs(obj.H)/length(obj.H)));
         semilogx(f, x-max(x),'color', [0.3 0.3 0.3]);               
-        xlabel('F [Hz]','FontSize', 17);
-        ylabel('Amplitude [dB]','FontSize', 17);
-        title(['Spectrum of ' inputname(1)],'FontSize', 17);
-        set(gca,'FontSize', 13)
+        xlabel('F [Hz]','FontSize', 24);
+        ylabel('Amplitude [dB]','FontSize', 24);
+        title(['Spectrum of ' inputname(1)],'FontSize', 24);
+        set(gca,'FontSize', 18)
     end
 end
 
@@ -85,8 +85,8 @@ function time(obj, time)
         t = (0:length(obj.h)-1)/obj.fs;            
         plot(t,20*log10(abs(obj.h))./max(abs(obj.h)),'color', ...
             [0.3 0.3 0.3]);               
-        xlabel('time [s]','FontSize', 16);
-        ylabel('Amplitude','FontSize', 16);     
+        xlabel('time [s]','FontSize', 24);
+        ylabel('Amplitude','FontSize', 24);     
         title(['Time waveform of ' inputname(1)],'FontSize', 24);
         set(gca,'FontSize', 18)
     elseif nargin == 1 
@@ -111,24 +111,24 @@ function time_norm(obj, lin_or_dec, time)
     if nargin >= 3 && strcmp(time, "t")
         t = (0:length(obj.h)-1)/obj.fs;            
         plot(t,out,'color', [0.3 0.3 0.3]);  
-        xlabel('time [s]','FontSize', 16);
+        xlabel('time [s]','FontSize', 24);
         if strcmp(lin_or_dec, "lin")
-            ylabel('Amplitude','FontSize', 16); 
+            ylabel('Amplitude','FontSize', 24); 
         else
-            ylabel('Amplitude [dB]','FontSize', 16); 
+            ylabel('Amplitude [dB]','FontSize', 24); 
         end    
-        title(['Time waveform of ' inputname(1)],'FontSize', 16);
-        set(gca,'FontSize', 12)
+        title(['Time waveform of ' inputname(1)],'FontSize', 24);
+        set(gca,'FontSize', 18)
     elseif nargin == 2 
         plot(out);
-        xlabel('sample number','FontSize', 16);
+        xlabel('sample number','FontSize', 24);
         if strcmp(lin_or_dec, "lin")
-            ylabel('Amplitude','FontSize', 16); 
+            ylabel('Amplitude','FontSize', 24); 
         else
-            ylabel('Amplitude [dB]','FontSize', 16); 
+            ylabel('Amplitude [dB]','FontSize', 24); 
         end    
-        title(['Time waveform of ' inputname(1)],'FontSize', 16);
-        set(gca,'FontSize', 12)
+        title(['Time waveform of ' inputname(1)],'FontSize', 24);
+        set(gca,'FontSize', 18)
     end
 end
 

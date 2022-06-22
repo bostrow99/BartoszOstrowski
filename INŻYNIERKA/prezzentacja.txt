@@ -1,0 +1,12 @@
+
+1. Hello world!
+2. Cel i motywacja
+3. Wymagania
+4. Wybór pogłosu jako efekt
+5. badania
+6. tor akustyczny
+7. splot
+8. filtry
+9. prototyp
+10.testy
+11. podsumowanie
