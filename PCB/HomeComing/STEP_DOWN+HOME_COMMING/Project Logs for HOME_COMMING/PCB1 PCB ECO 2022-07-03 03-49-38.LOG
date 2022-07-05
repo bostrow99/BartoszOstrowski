@@ -1,0 +1,19 @@
+Change Physical Footprint: Designator=C1 Old Footprint=CAP_0603 New Footprint=CAP_0603
+Change Physical Footprint: Designator=C2 Old Footprint=CAP_0603 New Footprint=CAP_0603
+Change Physical Footprint: Designator=C3 Old Footprint=PANASONIC_B_BO New Footprint=PANASONIC_B_BO
+Change Physical Footprint: Designator=P1 Old Footprint=POT_1801-J_BO New Footprint=POT_1801-J_BO
+Change Physical Footprint: Designator=Q1 Old Footprint=DFN3.3x3.3 New Footprint=DFN3.3x3.3
+Change Physical Footprint: Designator=Q2 Old Footprint=DFN3.3x3.3 New Footprint=DFN3.3x3.3
+Change Physical Footprint: Designator=Q3 Old Footprint=DFN3.3x3.3 New Footprint=DFN3.3x3.3
+Change Physical Footprint: Designator=Q4 Old Footprint=DFN3.3x3.3 New Footprint=DFN3.3x3.3
+Change Physical Footprint: Designator=Q5 Old Footprint=DFN3x3 New Footprint=DFN3x3
+Change Physical Footprint: Designator=R1 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R2 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R3 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R4 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R5 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R6 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=U1 Old Footprint=SO8 New Footprint=SO8
+Change Physical Footprint: Designator=X1 Old Footprint=SCREW_TERMINAL_X2 5mm New Footprint=SCREW_TERMINAL_X2 5mm
+Change Physical Footprint: Designator=X2 Old Footprint=SCREW_TERMINAL_X2 5mm New Footprint=SCREW_TERMINAL_X2 5mm
+Change Physical Footprint: Designator=X3 Old Footprint=SCREW_TERMINAL_X3 5mm New Footprint=SCREW_TERMINAL_X3 5mm

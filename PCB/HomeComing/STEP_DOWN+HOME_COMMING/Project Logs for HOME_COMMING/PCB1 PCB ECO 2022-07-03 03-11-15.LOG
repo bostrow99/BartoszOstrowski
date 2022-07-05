@@ -1,0 +1,28 @@
+Change Component Footprint: Designator=C? Old Footprint=CAP 1206 New Footprint=CAP_0603
+Change Component Footprint: Designator=C? Old Footprint=CAP 1206 New Footprint=CAP_0603
+Change Component Footprint: Designator=X? Old Footprint=double solder pad New Footprint=SCREW_TERMINAL_X2 5mm
+Change Component Footprint: Designator=X? Old Footprint=double solder pad New Footprint=SCREW_TERMINAL_X2 5mm
+Change Component Footprint: Designator=R? Old Footprint=RES 1206 New Footprint=RES_0603
+Change Component Footprint: Designator=R? Old Footprint=RES 1206 New Footprint=RES_0603
+Change Component Footprint: Designator=R? Old Footprint=RES 1206 New Footprint=RES_0603
+Change Component Footprint: Designator=R? Old Footprint=RES 1206 New Footprint=RES_0603
+Change Component Footprint: Designator=R? Old Footprint=RES 1206 New Footprint=RES_0603
+Change Component Footprint: Designator=R? Old Footprint=RES 1206 New Footprint=RES_0603
+Change Component Footprint: Designator=X? Old Footprint=tripple solder pad New Footprint=SCREW_TERMINAL_X3 5mm
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetQ?_4" already exists
+Add Net: Net with name "NetQ?_4" already exists
+Add Net: Net with name "NetQ?_4" already exists
+Added Member To Class: ClassName=Sheet2 Member=Component C? Capacitor
+Added Member To Class: ClassName=Sheet2 Member=Component C? Capacitor
+Added Member To Class: ClassName=Sheet2 Member=Component Q? YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component Q? AON7407
+Added Member To Class: ClassName=Sheet2 Member=Component Q? YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component Q? YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component R? Resistor
+Added Member To Class: ClassName=Sheet2 Member=Component R? Resistor
+Added Member To Class: ClassName=Sheet2 Member=Component R? Resistor
+Added Member To Class: ClassName=Sheet2 Member=Component R? Resistor
+Added Member To Class: ClassName=Sheet2 Member=Component R? Resistor
+Added Member To Class: ClassName=Sheet2 Member=Component X? SUPLY
+Added Member To Class: ClassName=Sheet2 Member=Component X? ?

@@ -1,0 +1,12 @@
+Added Component: Designator=C?(CAP 1206)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP 1206)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(DFN3.3x3.3)
+Added Component: Designator=Q?(DFN3.3x3.3)
+Added Component: Designator=R?(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO8)
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Net: Name=GND
+Added Class: Name=Sheet2

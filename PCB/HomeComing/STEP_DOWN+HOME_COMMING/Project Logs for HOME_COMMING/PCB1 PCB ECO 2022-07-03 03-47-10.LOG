@@ -1,0 +1,65 @@
+Added Component: Designator=Q1(DFN3.3x3.3)
+Added Component: Designator=Q2(DFN3.3x3.3)
+Added Component: Designator=Q3(DFN3.3x3.3)
+Added Component: Designator=Q4(DFN3.3x3.3)
+Added Component: Designator=Q5(DFN3x3)
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_4 Pin=Q1-4
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=OUT- Pin=Q1-5
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_4 Pin=Q2-4
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=OUT- Pin=Q2-5
+Added Pin To Net: NetName=GND Pin=Q3-1
+Added Pin To Net: NetName=GND Pin=Q3-1
+Added Pin To Net: NetName=GND Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_4 Pin=Q3-4
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=OUT- Pin=Q3-5
+Added Pin To Net: NetName=GND Pin=Q4-1
+Added Pin To Net: NetName=GND Pin=Q4-1
+Added Pin To Net: NetName=GND Pin=Q4-1
+Added Pin To Net: NetName=NetQ4_4 Pin=Q4-4
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT- Pin=Q4-5
+Added Pin To Net: NetName=OUT+ Pin=Q5-1
+Added Pin To Net: NetName=OUT+ Pin=Q5-1
+Added Pin To Net: NetName=OUT+ Pin=Q5-1
+Added Pin To Net: NetName=OUT- Pin=Q5-4
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Pin To Net: NetName=NetQ5_5 Pin=Q5-5
+Added Member To Class: ClassName=Sheet2 Member=Component Q1 YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component Q2 YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component Q3 YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component Q4 YJQ35N04A
+Added Member To Class: ClassName=Sheet2 Member=Component Q5 AON7407
