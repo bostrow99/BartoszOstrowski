@@ -1,0 +1,21 @@
+Circuit: * C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\Elektronika\Odprowadzanie do domu\Draft4.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Aug 16 02:07:43 2022
+Total elapsed time: 0.050 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6125
+traniter = 6118
+tranpoints = 2296
+accept = 2008
+rejected = 288
+matrix size = 24
+fillins = 6
+solver = Normal
+Matrix Compiler1: 1.46 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.91 KB object code size  0.2/0.2/[0.1]
+

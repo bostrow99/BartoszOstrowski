@@ -1,0 +1,252 @@
+Added Component: Designator=D1(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D2(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D3(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D4(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D5(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D6(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D7(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D8(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D9(LED_SUPERFLUX_7.62x7.62)
+Added Component: Designator=D10(LED_1206)
+Added Component: Designator=D11(LED_1206)
+Added Component: Designator=D12(LED_1206)
+Added Component: Designator=R1(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "56"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "56"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES 1206)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(Key switch Outemu)
+Added Component: Designator=SW2(Key switch Outemu)
+Added Component: Designator=SW3(Key switch Outemu)
+Added Component: Designator=SW4(Key switch Outemu)
+Added Component: Designator=SW5(Key switch Outemu)
+Added Component: Designator=SW6(Key switch Outemu)
+Added Component: Designator=SW7(Key switch Outemu)
+Added Component: Designator=SW8(Key switch Outemu)
+Added Component: Designator=SW9(Key switch Outemu)
+Added Component: Designator=X1(GOLDPIN_F_20x2)
+Added Component: Designator=X2(CONNECTOR_8pin)
+Added Component: Designator=X3(CONNECTOR_8pin)
+Added Component: Designator=X4(CONNECTOR_8pin)
+Added Component: Designator=X5(CONNECTOR_8pin)
+Added Pin To Net: NetName=5V Pin=X1-1
+Added Pin To Net: NetName=5V Pin=X1-3
+Added Pin To Net: NetName=5V Pin=X3-8
+Added Net: Name=5V
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R1-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R2-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R3-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R4-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R5-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R6-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R7-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R8-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R9-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R10-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R11-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=R12-1
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW5-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW6-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW7-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW8-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=SW9-2
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-5
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-10
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-13
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-19
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-26
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-29
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-33
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-40
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X2-6
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X2-8
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X3-3
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X4-6
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X4-7
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X4-8
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X5-7
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X5-8
+Added Net: Name=BUTTON_LED_3
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X1-2
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X1-18
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X2-2
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X2-5
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X3-4
+Added Net: Name=BUTTON_LED_4
+Added Pin To Net: NetName=BUZZER V+ Pin=X1-38
+Added Pin To Net: NetName=BUZZER V+ Pin=X2-7
+Added Net: Name=BUZZER V+
+Added Pin To Net: NetName=GPIO0 Pin=X1-28
+Added Pin To Net: NetName=GPIO0 Pin=X4-4
+Added Net: Name=GPIO0
+Added Pin To Net: NetName=GPIO1 Pin=X1-27
+Added Pin To Net: NetName=GPIO1 Pin=X5-5
+Added Net: Name=GPIO1
+Added Pin To Net: NetName=GPIO2 Pin=X1-4
+Added Pin To Net: NetName=GPIO2 Pin=X3-5
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=GPIO3 Pin=X1-6
+Added Pin To Net: NetName=GPIO3 Pin=X3-6
+Added Net: Name=GPIO3
+Added Pin To Net: NetName=GPIO4 Pin=X1-8
+Added Pin To Net: NetName=GPIO4 Pin=X3-7
+Added Net: Name=GPIO4
+Added Pin To Net: NetName=GPIO5 Pin=X1-30
+Added Pin To Net: NetName=GPIO5 Pin=X4-5
+Added Net: Name=GPIO5
+Added Pin To Net: NetName=GPIO6 Pin=X1-32
+Added Pin To Net: NetName=GPIO6 Pin=X5-1
+Added Net: Name=GPIO6
+Added Pin To Net: NetName=GPIO7 Pin=SW6-1
+Added Pin To Net: NetName=GPIO7 Pin=X1-25
+Added Net: Name=GPIO7
+Added Pin To Net: NetName=GPIO8 Pin=SW5-1
+Added Pin To Net: NetName=GPIO8 Pin=X1-23
+Added Net: Name=GPIO8
+Added Pin To Net: NetName=GPIO9 Pin=D11-1
+Added Pin To Net: NetName=GPIO9 Pin=X1-22
+Added Net: Name=GPIO9
+Added Pin To Net: NetName=GPIO10 Pin=D12-1
+Added Pin To Net: NetName=GPIO10 Pin=X1-20
+Added Net: Name=GPIO10
+Added Pin To Net: NetName=GPIO11 Pin=D10-1
+Added Pin To Net: NetName=GPIO11 Pin=X1-24
+Added Net: Name=GPIO11
+Added Pin To Net: NetName=GPIO12 Pin=SW7-1
+Added Pin To Net: NetName=GPIO12 Pin=X1-31
+Added Net: Name=GPIO12
+Added Pin To Net: NetName=GPIO13 Pin=X1-34
+Added Pin To Net: NetName=GPIO13 Pin=X2-4
+Added Net: Name=GPIO13
+Added Pin To Net: NetName=GPIO14 Pin=X1-7
+Added Pin To Net: NetName=GPIO14 Pin=X5-3
+Added Net: Name=GPIO14
+Added Pin To Net: NetName=GPIO15 Pin=X1-9
+Added Pin To Net: NetName=GPIO15 Pin=X5-4
+Added Net: Name=GPIO15
+Added Pin To Net: NetName=GPIO16 Pin=SW8-1
+Added Pin To Net: NetName=GPIO16 Pin=X1-35
+Added Net: Name=GPIO16
+Added Pin To Net: NetName=GPIO17 Pin=X1-12
+Added Pin To Net: NetName=GPIO17 Pin=X3-1
+Added Pin To Net: NetName=GPIO17 Pin=X4-1
+Added Net: Name=GPIO17
+Added Pin To Net: NetName=GPIO18 Pin=SW1-1
+Added Pin To Net: NetName=GPIO18 Pin=X1-11
+Added Net: Name=GPIO18
+Added Pin To Net: NetName=GPIO19 Pin=X1-36
+Added Pin To Net: NetName=GPIO19 Pin=X5-2
+Added Net: Name=GPIO19
+Added Pin To Net: NetName=GPIO20 Pin=SW9-1
+Added Pin To Net: NetName=GPIO20 Pin=X1-37
+Added Net: Name=GPIO20
+Added Pin To Net: NetName=GPIO21 Pin=X1-39
+Added Pin To Net: NetName=GPIO21 Pin=X5-6
+Added Net: Name=GPIO21
+Added Pin To Net: NetName=GPIO22 Pin=X1-16
+Added Pin To Net: NetName=GPIO22 Pin=X4-3
+Added Net: Name=GPIO22
+Added Pin To Net: NetName=GPIO23 Pin=SW2-1
+Added Pin To Net: NetName=GPIO23 Pin=X1-15
+Added Net: Name=GPIO23
+Added Pin To Net: NetName=GPIO24 Pin=SW3-1
+Added Pin To Net: NetName=GPIO24 Pin=X1-17
+Added Net: Name=GPIO24
+Added Pin To Net: NetName=GPIO25 Pin=SW4-1
+Added Pin To Net: NetName=GPIO25 Pin=X1-21
+Added Net: Name=GPIO25
+Added Pin To Net: NetName=GPIO27 Pin=X1-14
+Added Pin To Net: NetName=GPIO27 Pin=X3-2
+Added Pin To Net: NetName=GPIO27 Pin=X4-2
+Added Net: Name=GPIO27
+Added Pin To Net: NetName=KEYS_LED Pin=D1-1
+Added Pin To Net: NetName=KEYS_LED Pin=D1-1
+Added Pin To Net: NetName=KEYS_LED Pin=D2-1
+Added Pin To Net: NetName=KEYS_LED Pin=D2-1
+Added Pin To Net: NetName=KEYS_LED Pin=D3-1
+Added Pin To Net: NetName=KEYS_LED Pin=D3-1
+Added Pin To Net: NetName=KEYS_LED Pin=D4-1
+Added Pin To Net: NetName=KEYS_LED Pin=D4-1
+Added Pin To Net: NetName=KEYS_LED Pin=D5-1
+Added Pin To Net: NetName=KEYS_LED Pin=D5-1
+Added Pin To Net: NetName=KEYS_LED Pin=D6-1
+Added Pin To Net: NetName=KEYS_LED Pin=D6-1
+Added Pin To Net: NetName=KEYS_LED Pin=D7-1
+Added Pin To Net: NetName=KEYS_LED Pin=D7-1
+Added Pin To Net: NetName=KEYS_LED Pin=D8-1
+Added Pin To Net: NetName=KEYS_LED Pin=D8-1
+Added Pin To Net: NetName=KEYS_LED Pin=D9-1
+Added Pin To Net: NetName=KEYS_LED Pin=D9-1
+Added Pin To Net: NetName=KEYS_LED Pin=X2-1
+Added Net: Name=KEYS_LED
+Added Pin To Net: NetName=MOSFET_GND Pin=X2-3
+Added Net: Name=MOSFET_GND
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R1-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R2-2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=R3-2
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R4-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R5-2
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=R6-2
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=R7-2
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=R8-2
+Added Net: Name=NetD8_2
+Added Pin To Net: NetName=NetD9_2 Pin=D9-2
+Added Pin To Net: NetName=NetD9_2 Pin=D9-2
+Added Pin To Net: NetName=NetD9_2 Pin=R9-2
+Added Net: Name=NetD9_2
+Added Pin To Net: NetName=NetD10_2 Pin=D10-2
+Added Pin To Net: NetName=NetD10_2 Pin=R10-2
+Added Net: Name=NetD10_2
+Added Pin To Net: NetName=NetD11_2 Pin=D11-2
+Added Pin To Net: NetName=NetD11_2 Pin=R11-2
+Added Net: Name=NetD11_2
+Added Pin To Net: NetName=NetD12_2 Pin=D12-2
+Added Pin To Net: NetName=NetD12_2 Pin=R12-2
+Added Net: Name=NetD12_2
+Added Class: Name=KSS

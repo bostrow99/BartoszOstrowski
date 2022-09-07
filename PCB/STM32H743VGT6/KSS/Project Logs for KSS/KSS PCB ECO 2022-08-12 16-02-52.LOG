@@ -1,0 +1,89 @@
+Removed Pin From Net: NetName=5V Pin=X1-1
+Removed Pin From Net: NetName=BUTTON_LED_4 Pin=X1-2
+Removed Pin From Net: NetName=5V Pin=X1-3
+Removed Pin From Net: NetName=GPIO2 Pin=X1-4
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-5
+Removed Pin From Net: NetName=GPIO3 Pin=X1-6
+Removed Pin From Net: NetName=GPIO14 Pin=X1-7
+Removed Pin From Net: NetName=GPIO4 Pin=X1-8
+Removed Pin From Net: NetName=GPIO15 Pin=X1-9
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-10
+Removed Pin From Net: NetName=GPIO18 Pin=X1-11
+Removed Pin From Net: NetName=GPIO17 Pin=X1-12
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-13
+Removed Pin From Net: NetName=GPIO27 Pin=X1-14
+Removed Pin From Net: NetName=GPIO23 Pin=X1-15
+Removed Pin From Net: NetName=GPIO22 Pin=X1-16
+Removed Pin From Net: NetName=GPIO24 Pin=X1-17
+Removed Pin From Net: NetName=BUTTON_LED_4 Pin=X1-18
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-19
+Removed Pin From Net: NetName=GPIO10 Pin=X1-20
+Removed Pin From Net: NetName=GPIO25 Pin=X1-21
+Removed Pin From Net: NetName=GPIO9 Pin=X1-22
+Removed Pin From Net: NetName=GPIO8 Pin=X1-23
+Removed Pin From Net: NetName=GPIO11 Pin=X1-24
+Removed Pin From Net: NetName=GPIO7 Pin=X1-25
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-26
+Removed Pin From Net: NetName=GPIO1 Pin=X1-27
+Removed Pin From Net: NetName=GPIO0 Pin=X1-28
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-29
+Removed Pin From Net: NetName=GPIO5 Pin=X1-30
+Removed Pin From Net: NetName=GPIO12 Pin=X1-31
+Removed Pin From Net: NetName=GPIO6 Pin=X1-32
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-33
+Removed Pin From Net: NetName=GPIO13 Pin=X1-34
+Removed Pin From Net: NetName=GPIO16 Pin=X1-35
+Removed Pin From Net: NetName=GPIO19 Pin=X1-36
+Removed Pin From Net: NetName=GPIO20 Pin=X1-37
+Removed Pin From Net: NetName=BUZZER V+ Pin=X1-38
+Removed Pin From Net: NetName=GPIO21 Pin=X1-39
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=X1-40
+Change Footprint: Cannot match pads with new footprint in component :D1 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D2 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D3 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D4 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D5 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D6 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D7 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D8 Footprint:LED_1206
+Change Footprint: Cannot match pads with new footprint in component :D9 Footprint:LED_1206
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X1-1
+Added Pin To Net: NetName=5V Pin=X1-2
+Added Pin To Net: NetName=GPIO2 Pin=X1-3
+Added Pin To Net: NetName=5V Pin=X1-4
+Added Pin To Net: NetName=GPIO3 Pin=X1-5
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-6
+Added Pin To Net: NetName=GPIO4 Pin=X1-7
+Added Pin To Net: NetName=GPIO14 Pin=X1-8
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-9
+Added Pin To Net: NetName=GPIO15 Pin=X1-10
+Added Pin To Net: NetName=GPIO17 Pin=X1-11
+Added Pin To Net: NetName=GPIO18 Pin=X1-12
+Added Pin To Net: NetName=GPIO27 Pin=X1-13
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-14
+Added Pin To Net: NetName=GPIO22 Pin=X1-15
+Added Pin To Net: NetName=GPIO23 Pin=X1-16
+Added Pin To Net: NetName=BUTTON_LED_4 Pin=X1-17
+Added Pin To Net: NetName=GPIO24 Pin=X1-18
+Added Pin To Net: NetName=GPIO10 Pin=X1-19
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-20
+Added Pin To Net: NetName=GPIO9 Pin=X1-21
+Added Pin To Net: NetName=GPIO25 Pin=X1-22
+Added Pin To Net: NetName=GPIO11 Pin=X1-23
+Added Pin To Net: NetName=GPIO8 Pin=X1-24
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-25
+Added Pin To Net: NetName=GPIO7 Pin=X1-26
+Added Pin To Net: NetName=GPIO0 Pin=X1-27
+Added Pin To Net: NetName=GPIO1 Pin=X1-28
+Added Pin To Net: NetName=GPIO5 Pin=X1-29
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-30
+Added Pin To Net: NetName=GPIO6 Pin=X1-31
+Added Pin To Net: NetName=GPIO12 Pin=X1-32
+Added Pin To Net: NetName=GPIO13 Pin=X1-33
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-34
+Added Pin To Net: NetName=GPIO19 Pin=X1-35
+Added Pin To Net: NetName=GPIO16 Pin=X1-36
+Added Pin To Net: NetName=BUZZER V+ Pin=X1-37
+Added Pin To Net: NetName=GPIO20 Pin=X1-38
+Added Pin To Net: NetName=BUTTON_LED_3 Pin=X1-39
+Added Pin To Net: NetName=GPIO21 Pin=X1-40

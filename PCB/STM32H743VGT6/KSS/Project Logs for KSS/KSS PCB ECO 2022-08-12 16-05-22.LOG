@@ -1,0 +1,36 @@
+Added Component: Designator=D1(LED_1206)
+Added Component: Designator=D2(LED_1206)
+Added Component: Designator=D3(LED_1206)
+Added Component: Designator=D4(LED_1206)
+Added Component: Designator=D5(LED_1206)
+Added Component: Designator=D6(LED_1206)
+Added Component: Designator=D7(LED_1206)
+Added Component: Designator=D8(LED_1206)
+Added Component: Designator=D9(LED_1206)
+Added Pin To Net: NetName=KEYS_LED Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=KEYS_LED Pin=D2-1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=KEYS_LED Pin=D3-1
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=KEYS_LED Pin=D4-1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=KEYS_LED Pin=D5-1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=KEYS_LED Pin=D6-1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=KEYS_LED Pin=D7-1
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=KEYS_LED Pin=D8-1
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=KEYS_LED Pin=D9-1
+Added Pin To Net: NetName=NetD9_2 Pin=D9-2
+Added Member To Class: ClassName=KSS Member=Component D1 ?
+Added Member To Class: ClassName=KSS Member=Component D2 ?
+Added Member To Class: ClassName=KSS Member=Component D3 ?
+Added Member To Class: ClassName=KSS Member=Component D4 ?
+Added Member To Class: ClassName=KSS Member=Component D5 ?
+Added Member To Class: ClassName=KSS Member=Component D6 ?
+Added Member To Class: ClassName=KSS Member=Component D7 ?
+Added Member To Class: ClassName=KSS Member=Component D8 ?
+Added Member To Class: ClassName=KSS Member=Component D9 ?

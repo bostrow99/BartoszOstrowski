@@ -1,0 +1,10 @@
+Output: Export PARASOLID
+Type  : ExportSTEP
+From  : PCB Document [KSS2.PcbDoc]
+   Generated File[KSS2.x_t]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 16:14:06 On 2022-09-06

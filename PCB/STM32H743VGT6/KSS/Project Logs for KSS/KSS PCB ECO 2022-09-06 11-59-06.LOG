@@ -1,0 +1,47 @@
+Change Component Footprint: Designator=D10 Old Footprint=LED_1206 New Footprint=LED_1206_DLC
+Change Component Footprint: Designator=D11 Old Footprint=LED_1206 New Footprint=LED_1206_DLC
+Change Component Footprint: Designator=D12 Old Footprint=LED_1206 New Footprint=LED_1206_DLC
+Change Net Color : Old Net Color=Red New Net Color=Black
+Change Net Color : Old Net Color=Yellow New Net Color=Black
+Change Net Color : Old Net Color=RGB(234, 153, 153) New Net Color=Black
+Change Net Color : Old Net Color=RGB(103, 78, 167) New Net Color=Black
+Change Net Color : Old Net Color=RGB(12, 255, 245) New Net Color=Black
+Change Net Color : Old Net Color=RGB(12, 255, 245) New Net Color=Black
+Change Net Color : Old Net Color=Lime New Net Color=Black
+Change Net Color : Old Net Color=Lime New Net Color=Black
+Change Net Color : Old Net Color=Lime New Net Color=Black
+Change Net Color : Old Net Color=RGB(12, 255, 245) New Net Color=Black
+Change Net Color : Old Net Color=RGB(12, 255, 245) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=Fuchsia New Net Color=Black
+Change Net Color : Old Net Color=Fuchsia New Net Color=Black
+Change Net Color : Old Net Color=Fuchsia New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(201, 218, 248) New Net Color=Black
+Change Net Color : Old Net Color=Lime New Net Color=Black
+Change Net Color : Old Net Color=Lime New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(36, 0, 255) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(12, 255, 245) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(12, 255, 245) New Net Color=Black
+Change Net Color : Old Net Color=RGB(36, 0, 255) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(241, 194, 50) New Net Color=Black
+Change Net Color : Old Net Color=RGB(36, 0, 255) New Net Color=Black
+Change Net Color : Old Net Color=RGB(201, 218, 248) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Black

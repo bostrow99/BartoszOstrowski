@@ -1,0 +1,39 @@
+Change Physical Footprint: Designator=D1 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D2 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D3 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D4 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D5 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D6 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D7 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D8 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D9 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D10 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D11 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=D12 Old Footprint=LED_1206 New Footprint=LED_1206
+Change Physical Footprint: Designator=R1 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R2 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R3 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R4 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R5 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R6 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R7 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R8 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R9 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R10 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R11 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=R12 Old Footprint=RES 1206 New Footprint=RES 1206
+Change Physical Footprint: Designator=SW1 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW2 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW3 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW4 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW5 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW6 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW7 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW8 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=SW9 Old Footprint=Key switch Outemu New Footprint=Key switch Outemu
+Change Physical Footprint: Designator=X1 Old Footprint=GOLDPIN_F_20x2 New Footprint=GOLDPIN_F_20x2
+Change Physical Footprint: Designator=X2 Old Footprint=SCREW_TERMINAL_X8 5,08mm New Footprint=SCREW_TERMINAL_X8 5,08mm
+Change Physical Footprint: Designator=X3 Old Footprint=SCREW_TERMINAL_X8 5,08mm New Footprint=SCREW_TERMINAL_X8 5,08mm
+Change Physical Footprint: Designator=X4 Old Footprint=SCREW_TERMINAL_X8 5,08mm New Footprint=SCREW_TERMINAL_X8 5,08mm
+Change Physical Footprint: Designator=X5 Old Footprint=SCREW_TERMINAL_X8 5,08mm New Footprint=SCREW_TERMINAL_X8 5,08mm
+Change Physical Footprint: Designator=X? Old Footprint=USB_MICRO_B_MX-105017-0001 New Footprint=USB_MICRO_B_MX-105017-0001
