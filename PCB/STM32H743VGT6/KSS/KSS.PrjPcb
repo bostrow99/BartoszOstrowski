@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for KSS
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -255,90 +255,98 @@ DocumentPath=Project Outputs for KSS\Gerber\KSS2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GKO
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM1
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM2
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM13
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GPB
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GPT
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTL
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTO
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTP
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTS
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2.LDP
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.REP
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for KSS\ODB\KSS2.REP
+DocumentPath=Project Outputs for KSS\NC Drill\KSS2.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.RUL
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for KSS\ExportSTEP\KSS2.step
+DocumentPath=Project Outputs for KSS\ODB\KSS2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for KSS\ExportSTEP\KSS2.x_t
+DocumentPath=Project Outputs for KSS\Gerber\KSS2.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for KSS\ODB\odb\matrix\matrix
+DocumentPath=Project Outputs for KSS\ExportSTEP\KSS2.step
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=Project Outputs for KSS\ExportSTEP\KSS2.x_t
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
+DocumentPath=Project Outputs for KSS\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\profile
+DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\stephdr
+DocumentPath=Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
 DItemRevisionGUID=
 
 [GeneratedDocument51]
+DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument53]
 DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
 DItemRevisionGUID=
 
@@ -411,7 +419,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for KSS
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

@@ -4,9 +4,9 @@ C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project
 ========================================================================================================================
 File Design Information:
 
-Date:       06-09-22
-Time:       16:13
-Revision:   Not in VersionControl
+Date:       08-09-22
+Time:       10:39
+Revision:   d48f4c2861544bd75a448ce04d59cd739516762f
 Variant:    No variations
 Units used: mm
 
