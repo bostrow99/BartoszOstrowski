@@ -2,35 +2,51 @@
 FileName = KSS2.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Pad Master
-      File : KSS2.GPT
+Generating : Mechanical 13
+      File : KSS2.GM13
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 13
 
 
 Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
+    D10
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : KSS2.GTO
+Generating : Board
+      File : KSS2.GM2
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Board
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : KSS2.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : KSS2.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : KSS2.GBO
+
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -39,26 +55,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : KSS2.GTP
+Generating : Bottom Paste
+      File : KSS2.GBP
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : KSS2.GPB
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -66,15 +66,30 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : KSS2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
 *************************************************************
 
 *************************************************************
@@ -106,72 +121,79 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : KSS2.GBS
+Generating : Top Paste
+      File : KSS2.GTP
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Paste
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : KSS2.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D12
+    D13
+    D14
+    D15
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : KSS2.GM1
+Generating : Top Overlay
+      File : KSS2.GTO
 
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Board
-      File : KSS2.GM2
-
-    Adding Layer      : Board
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : KSS2.GM13
-
-    Adding Layer      : Mechanical 13
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
     D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : KSS2.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : KSS2.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
 *************************************************************
 
 *************************************************************
@@ -184,7 +206,7 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D10
+    D30
     D31
     D32
     D33
@@ -198,8 +220,6 @@ Used DCodes :
     D41
     D42
     D43
-    D44
-    D45
 *************************************************************
 
 *************************************************************
@@ -232,28 +252,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : KSS2.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : KSS2.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Drill Drawing
       File : KSS2.GD1
 
@@ -263,9 +261,9 @@ Generating : Drill Drawing
 
 
 Used DCodes :
+    D44
+    D45
     D46
-    D47
-    D48
 *************************************************************
 
 *************************************************************
@@ -278,6 +276,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D46
+    D44
 *************************************************************
 

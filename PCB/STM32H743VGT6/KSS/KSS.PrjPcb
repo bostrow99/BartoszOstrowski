@@ -424,7 +424,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -526,12 +526,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -640,7 +650,7 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -662,7 +672,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -738,7 +748,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -787,7 +797,7 @@ OutputDefault8=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -895,7 +905,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -939,7 +949,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1000,7 +1010,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1413,54 +1423,6 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-
-[NetInfos]
-Net1=NetName=5V|NetColor=clBlack
-Net2=NetName=BUTTON_LED_3|NetColor=clBlack
-Net3=NetName=BUTTON_LED_4|NetColor=clBlack
-Net4=NetName=BUZZER GND|NetColor=$00434343
-Net5=NetName=BUZZER V+|NetColor=clBlack
-Net6=NetName=GPIO0|NetColor=clBlack
-Net7=NetName=GPIO1|NetColor=clBlack
-Net8=NetName=GPIO10|NetColor=clBlack
-Net9=NetName=GPIO11|NetColor=clBlack
-Net10=NetName=GPIO12|NetColor=clBlack
-Net11=NetName=GPIO13|NetColor=clBlack
-Net12=NetName=GPIO14|NetColor=clBlack
-Net13=NetName=GPIO15|NetColor=clBlack
-Net14=NetName=GPIO16|NetColor=clBlack
-Net15=NetName=GPIO17|NetColor=clBlack
-Net16=NetName=GPIO18|NetColor=clBlack
-Net17=NetName=GPIO19|NetColor=clBlack
-Net18=NetName=GPIO2|NetColor=clBlack
-Net19=NetName=GPIO20|NetColor=clBlack
-Net20=NetName=GPIO21|NetColor=clBlack
-Net21=NetName=GPIO22|NetColor=clBlack
-Net22=NetName=GPIO23|NetColor=clBlack
-Net23=NetName=GPIO24|NetColor=clBlack
-Net24=NetName=GPIO25|NetColor=clBlack
-Net25=NetName=GPIO27|NetColor=clBlack
-Net26=NetName=GPIO3|NetColor=clBlack
-Net27=NetName=GPIO4|NetColor=clBlack
-Net28=NetName=GPIO5|NetColor=clBlack
-Net29=NetName=GPIO6|NetColor=clBlack
-Net30=NetName=GPIO7|NetColor=clBlack
-Net31=NetName=GPIO8|NetColor=clBlack
-Net32=NetName=GPIO9|NetColor=clBlack
-Net33=NetName=GPS PWR|NetColor=$009999EA
-Net34=NetName=KEYS_LED|NetColor=clBlack
-Net35=NetName=NetD1_2|NetColor=clBlack
-Net36=NetName=NetD10_2|NetColor=clBlack
-Net37=NetName=NetD11_2|NetColor=clBlack
-Net38=NetName=NetD12_2|NetColor=clBlack
-Net39=NetName=NetD2_2|NetColor=clBlack
-Net40=NetName=NetD3_2|NetColor=clBlack
-Net41=NetName=NetD4_2|NetColor=clBlack
-Net42=NetName=NetD5_2|NetColor=clBlack
-Net43=NetName=NetD6_2|NetColor=clBlack
-Net44=NetName=NetD7_2|NetColor=clBlack
-Net45=NetName=NetD8_2|NetColor=clBlack
-Net46=NetName=NetD9_2|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

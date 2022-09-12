@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
+C:\Users\BartoszOstrowski\OneDrive - Robotec.ai sp z o.o\Dokumenty\GitHub\BartoszOstrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       08-09-22
-Time:       10:39
-Revision:   d48f4c2861544bd75a448ce04d59cd739516762f
+Date:       08.09.22
+Time:       13:08
+Revision:   30793f95c9e11cc318a4412136a7c64ed565047d
 Variant:    No variations
 Units used: mm
 
@@ -35,9 +35,9 @@ SW4        Pushbutton     TopLayer    Key_switch_Outemu          42.9550      38
 SW3        Pushbutton     TopLayer    Key_switch_Outemu          23.9050      38.5200      0        ""          
 SW2        Pushbutton     TopLayer    Key_switch_Outemu          4.8550       38.5200      0        ""          
 SW1        Pushbutton     TopLayer    Key_switch_Outemu          -14.1950     38.5200      0        ""          
-R12        Resistor       TopLayer    RES_1206                   -0.0300      14.2500      0        ""          
-R11        Resistor       TopLayer    RES_1206                   -0.0300      12.2500      0        ""          
-R10        Resistor       TopLayer    RES_1206                   -0.0300      10.2500      0        ""          
+R12        Resistor       TopLayer    RES_1206                   4.2764       17.3000      90       ""          
+R11        Resistor       TopLayer    RES_1206                   6.8164       17.3000      90       ""          
+R10        Resistor       TopLayer    RES_1206                   9.3564       17.3000      90       ""          
 R9         Resistor       TopLayer    RES_1206                   148.1900     36.6800      270      ""          
 R8         Resistor       TopLayer    RES_1206                   129.1588     36.6800      270      ""          
 R7         Resistor       TopLayer    RES_1206                   110.1275     36.6800      270      ""          
@@ -47,6 +47,6 @@ R4         Resistor       TopLayer    RES_1206                   53.0338      36
 R3         Resistor       TopLayer    RES_1206                   34.0025      36.6800      270      ""          
 R2         Resistor       TopLayer    RES_1206                   14.9713      36.6800      270      ""          
 R1         Resistor       TopLayer    RES_1206                   -4.0600      36.6800      270      ""          
-D12        GREEN          TopLayer    LED_1206_DLC               4.2764       17.3000      270      ""          
-D11        YELLOW         TopLayer    LED_1206_DLC               6.8164       17.3000      270      ""          
-D10        RED            TopLayer    LED_1206_DLC               9.3564       17.3000      270      ""          
+D12        GREEN          TopLayer    LED_1206_DLC               141.9000     14.4500      90       ""          
+D11        YELLOW         TopLayer    LED_1206_DLC               136.8200     14.4500      90       ""          
+D10        RED            TopLayer    LED_1206_DLC               131.7400     14.4500      90       ""          
