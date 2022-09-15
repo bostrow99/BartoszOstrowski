@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: KSS2.GBR   08.09.2022  13:08:51
+Gerber File Extension Report For: KSS2.GBR   2022-09-12  15:37:06
 ------------------------------------------------------------------------------------------
 
 
@@ -14,9 +14,6 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GM1                Mechanical 1                            
-.GM2                Board                                   
-.GM13               Mechanical 13                           
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       

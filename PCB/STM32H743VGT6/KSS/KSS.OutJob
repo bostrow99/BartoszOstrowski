@@ -97,7 +97,7 @@ OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=3
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908301~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
 OutputType6=NC Drill
 OutputName6=NC Drill Files
 OutputCategory6=Fabrication
@@ -356,7 +356,7 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\
+OutputFilePath4=Project Outputs for KSS\
 ReleaseManaged4=0
 OutputBasePath4=Project Outputs for KSS\
 OutputPathMedia4=
@@ -375,7 +375,7 @@ RelativeOutputPath2=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32
 OpenOutputs2=1
 RelativeOutputPath3=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\PDF\3D_PDF.PDF
 OpenOutputs3=1
-RelativeOutputPath4=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\
+RelativeOutputPath4=Project Outputs for KSS\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0

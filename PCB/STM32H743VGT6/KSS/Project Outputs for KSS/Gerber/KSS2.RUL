@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\BartoszOstrowski\OneDrive - Robotec.ai sp z o.o\Dokumenty\GitHub\BartoszOstrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
+DRC Rules Export File for PCB: C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00

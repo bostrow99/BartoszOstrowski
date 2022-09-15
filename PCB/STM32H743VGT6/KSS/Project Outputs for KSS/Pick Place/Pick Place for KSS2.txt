@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\BartoszOstrowski\OneDrive - Robotec.ai sp z o.o\Dokumenty\GitHub\BartoszOstrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
+C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       08.09.22
-Time:       13:08
-Revision:   30793f95c9e11cc318a4412136a7c64ed565047d
+Date:       12-09-22
+Time:       15:37
+Revision:   bb3c6be4cfdc067ad45de918b836aac7d80ab780
 Variant:    No variations
 Units used: mm
 
