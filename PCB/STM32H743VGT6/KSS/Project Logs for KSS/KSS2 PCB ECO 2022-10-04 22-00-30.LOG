@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW1-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW2-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW3-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW4-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW5-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW6-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW7-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW8-MH
+Removed Pin From Net: NetName=BUTTON_LED_3 Pin=SW9-MH
+Change Component Footprint: Designator=D10 Old Footprint=LED_1206_DLC New Footprint=LED_1206
+Change Component Footprint: Designator=D11 Old Footprint=LED_1206_DLC New Footprint=LED_1206
+Change Component Footprint: Designator=D12 Old Footprint=LED_1206_DLC New Footprint=LED_1206
+Change Component Footprint: Designator=X6 Old Footprint=USB_MICRO_B_MX-105017-0001 New Footprint=USB_MICRO_B_940 KEYSTONE

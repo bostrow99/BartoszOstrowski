@@ -4,26 +4,6 @@ USER_PARAMS=
 
 TOOLS {
     NUM=1
-    TYPE=PLATED
-    MIN_TOL=49.9999
-    MAX_TOL=49.9999
-    BIT=
-    FINISH_SIZE=549.9989
-    DRILL_SIZE=549.9989
-}
-
-TOOLS {
-    NUM=2
-    TYPE=PLATED
-    MIN_TOL=49.9999
-    MAX_TOL=49.9999
-    BIT=
-    FINISH_SIZE=599.9988
-    DRILL_SIZE=599.9988
-}
-
-TOOLS {
-    NUM=3
     TYPE=VIA
     MIN_TOL=0
     MAX_TOL=0
@@ -33,7 +13,7 @@ TOOLS {
 }
 
 TOOLS {
-    NUM=4
+    NUM=2
     TYPE=PLATED
     MIN_TOL=0
     MAX_TOL=0
@@ -43,7 +23,7 @@ TOOLS {
 }
 
 TOOLS {
-    NUM=5
+    NUM=3
     TYPE=PLATED
     MIN_TOL=0
     MAX_TOL=0
@@ -53,7 +33,7 @@ TOOLS {
 }
 
 TOOLS {
-    NUM=6
+    NUM=4
     TYPE=PLATED
     MIN_TOL=0
     MAX_TOL=0
@@ -63,7 +43,7 @@ TOOLS {
 }
 
 TOOLS {
-    NUM=7
+    NUM=5
     TYPE=PLATED
     MIN_TOL=0
     MAX_TOL=0
@@ -73,7 +53,7 @@ TOOLS {
 }
 
 TOOLS {
-    NUM=8
+    NUM=6
     TYPE=PLATED
     MIN_TOL=0
     MAX_TOL=0
@@ -83,7 +63,7 @@ TOOLS {
 }
 
 TOOLS {
-    NUM=9
+    NUM=7
     TYPE=PLATED
     MIN_TOL=0
     MAX_TOL=0

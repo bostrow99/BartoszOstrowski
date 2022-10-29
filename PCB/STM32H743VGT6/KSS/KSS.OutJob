@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -110,7 +110,7 @@ OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=4
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
+Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
 OutputType7=ODB
 OutputName7=ODB++ Files
 OutputCategory7=Fabrication
@@ -299,7 +299,7 @@ OutputEnabled15_OutputMedium3=0
 OutputEnabled15_OutputMedium4=0
 OutputDefault15=0
 Configuration15_Name1=OutputConfigurationParameter1
-Configuration15_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908301~1,16973831~1,16973849~1,16908290~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16908289~1,16973834~1,16973837~1,16973848~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
+Configuration15_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=40|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908301~1,16973831~1,16973849~1,16908290~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16908289~1,16973834~1,16973837~1,16973848~1|PlusApertureTolerance=40|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\KSS2.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\PDF\KSS.pdf
@@ -356,7 +356,7 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=Project Outputs for KSS\
+OutputFilePath4=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\
 ReleaseManaged4=0
 OutputBasePath4=Project Outputs for KSS\
 OutputPathMedia4=
@@ -375,7 +375,7 @@ RelativeOutputPath2=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32
 OpenOutputs2=1
 RelativeOutputPath3=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\PDF\3D_PDF.PDF
 OpenOutputs3=1
-RelativeOutputPath4=Project Outputs for KSS\
+RelativeOutputPath4=C:\Users\bhbo9\Documents\PROJECTS\BartoszOStrowski\PCB\STM32H743VGT6\KSS\Project Outputs for KSS\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0
