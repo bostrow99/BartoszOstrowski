@@ -54,7 +54,7 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=KSS3.SchDoc
+DocumentPath=KSS_4_button.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -71,7 +71,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NVMPIUKS
 
 [Document2]
-DocumentPath=KSS3.PcbDoc
+DocumentPath=KSS_4_button.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -86,269 +86,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GVFSTCLN
-
-[Document3]
-DocumentPath=KSS.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
-DocumentPath=KSS.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
-DocumentPath=KSS.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BSATEKCJ
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for KSS\Test Points\Assembly Testpoint Report for KSS2.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for KSS\BOM\Bill of Materials-KSS.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\dielectric_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.REP
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for KSS\ODB\KSS2.REP
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for KSS\Gerber\KSS2.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for KSS\ExportSTEP\KSS2.step
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for KSS\NC Drill\KSS2.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for KSS\ExportSTEP\KSS2.x_t
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for KSS\ODB\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for KSS\Pick Place\Pick Place for KSS2.txt
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for KSS\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -1379,52 +1116,70 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=COMPONENTS_2022.IntLib
-ComponentDesignItemID0=Connector x8
-ComponentSymbolReference0=Connector x8
+ComponentDesignItemID0=4N27
+ComponentSymbolReference0=4N27
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=COMPONENTS_2022.IntLib
-ComponentDesignItemID1=Diode LED
-ComponentSymbolReference1=Diode LED
+ComponentDesignItemID1=Connector x4
+ComponentSymbolReference1=Connector x4
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=COMPONENTS_2022.IntLib
-ComponentDesignItemID2=GoldPin_F_20x2
-ComponentSymbolReference2=GoldPin_F_20x2
+ComponentDesignItemID2=Connector x8
+ComponentSymbolReference2=Connector x8
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=COMPONENTS_2022.IntLib
-ComponentDesignItemID3=IRLML6402
-ComponentSymbolReference3=IRLML6402
+ComponentDesignItemID3=Diode LED
+ComponentSymbolReference3=Diode LED
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=COMPONENTS_2022.IntLib
-ComponentDesignItemID4=Pushbutton
-ComponentSymbolReference4=Pushbutton
+ComponentDesignItemID4=GoldPin_F_20x2
+ComponentSymbolReference4=GoldPin_F_20x2
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=COMPONENTS_2022.IntLib
-ComponentDesignItemID5=Resistor
-ComponentSymbolReference5=Resistor
+ComponentDesignItemID5=HCM1206X
+ComponentSymbolReference5=HCM1206X
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=COMPONENTS_2022.IntLib
-ComponentDesignItemID6=SS14
-ComponentSymbolReference6=SS14
+ComponentDesignItemID6=IRLML6402
+ComponentSymbolReference6=IRLML6402
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=COMPONENTS_2022.IntLib
-ComponentDesignItemID7=USB_MICRO_B
-ComponentSymbolReference7=USB_MICRO_B
+ComponentDesignItemID7=Pushbutton
+ComponentSymbolReference7=Pushbutton
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=COMPONENTS_2022.IntLib
+ComponentDesignItemID8=Resistor
+ComponentSymbolReference8=Resistor
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=COMPONENTS_2022.IntLib
+ComponentDesignItemID9=SS14
+ComponentSymbolReference9=SS14
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=COMPONENTS_2022.IntLib
+ComponentDesignItemID10=USB_MICRO_B
+ComponentSymbolReference10=USB_MICRO_B
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
 FullReplace=0
 UpdateDesignatorLock=0
 UpdatePartIDLock=0
@@ -1444,76 +1199,94 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=I(AV)
+ParameterName3=f
 ParameterUpdate3=1
-ParameterName4=IDmax
+ParameterName4=I(AV)
 ParameterUpdate4=1
-ParameterName5=IFSM
+ParameterName5=IDmax
 ParameterUpdate5=1
-ParameterName6=IR; TA=100
+ParameterName6=IFSM
 ParameterUpdate6=1
-ParameterName7=IR; TA=25
+ParameterName7=IR; TA=100
 ParameterUpdate7=1
-ParameterName8=Library Reference
+ParameterName8=IR; TA=25
 ParameterUpdate8=1
-ParameterName9=RDSon
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ParameterName10=Resistance
+ParameterName10=Parameter 1
 ParameterUpdate10=1
-ParameterName11=VDSS
+ParameterName11=RDSon
 ParameterUpdate11=1
-ParameterName12=VF
+ParameterName12=Resistance
 ParameterUpdate12=1
-ParameterName13=VGS
+ParameterName13=V
 ParameterUpdate13=1
-ParameterName14=VRMS
+ParameterName14=VDSS
 ParameterUpdate14=1
-ParameterName15=VRRM
+ParameterName15=VF
 ParameterUpdate15=1
+ParameterName16=VGS
+ParameterUpdate16=1
+ParameterName17=VRMS
+ParameterUpdate17=1
+ParameterName18=VRRM
+ParameterUpdate18=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CONNECTOR_8pin
+ModelName0=Connector double
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=GOLDPIN_F_20x2
+ModelName1=CONNECTOR_8pin
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=Key switch Outemu
+ModelName2=DIP6
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=LED_0603
+ModelName3=GOLDPIN_F_20x2
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=LED_1206
+ModelName4=HCM1206X
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=LED_1206_DLC
+ModelName5=Key switch Outemu
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=LED_SUPERFLUX_7.62x7.62
+ModelName6=LED_0603
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=RES 1206
+ModelName7=LED_1206
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=RES_0603
+ModelName8=LED_1206_DLC
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=SCREW_TERMINAL_X8 5,08mm
+ModelName9=LED_SUPERFLUX_7.62x7.62
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=SMA/DO-214AC
+ModelName10=RES 1206
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=SOT23_3_PIN
+ModelName11=RES_0603
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=USB_MICRO_B_940 KEYSTONE
+ModelName12=SCREW_TERMINAL_X4 2.54mm
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=USB_MICRO_B_MX-105017-0001
+ModelName13=SCREW_TERMINAL_X8 5,08mm
 ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=SMA/DO-214AC
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=SOT23_3_PIN
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=USB_MICRO_B_940 KEYSTONE
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=USB_MICRO_B_MX-105017-0001
+ModelUpdate17=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

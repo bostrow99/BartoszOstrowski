@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GPIO17 Pin=X4-4
+Removed Pin From Net: NetName=GPIO27 Pin=X4-5
+Added Pin To Net: NetName=GPIO27 Pin=X4-4
+Added Pin To Net: NetName=GPIO17 Pin=X4-5
+Added Member To Class: ClassName=KSS_4_button Member=Component D1 WH
+Added Member To Class: ClassName=KSS_4_button Member=Component D4 WH
+Added Member To Class: ClassName=KSS_4_button Member=Component D6 WH
+Added Member To Class: ClassName=KSS_4_button Member=Component R1 Resistor
+Added Member To Class: ClassName=KSS_4_button Member=Component R6 Resistor
+Added Member To Class: ClassName=KSS_4_button Member=Component R11 Resistor

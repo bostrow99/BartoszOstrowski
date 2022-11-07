@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GND Pin=D10-2
+Removed Pin From Net: NetName=GND Pin=D11-2
+Removed Pin From Net: NetName=GND Pin=D12-2
+Removed Pin From Net: NetName=GPIO11 Pin=R10-2
+Removed Pin From Net: NetName=GPIO9 Pin=R11-2
+Removed Pin From Net: NetName=GPIO10 Pin=R12-2
+Removed Member From Class: ClassName=KSS3 Member=D11
+Removed Member From Class: ClassName=KSS3 Member=D12
+Removed Member From Class: ClassName=KSS3 Member=D13
+Removed Member From Class: ClassName=KSS3 Member=R13
+Removed Member From Class: ClassName=KSS3 Member=R14
+Removed Member From Class: ClassName=KSS3 Member=R15
+Change Component Designator: OldDesignator=D1 NewDesignator=D2
+Change Component Designator: OldDesignator=D2 NewDesignator=D3
+Change Component Designator: OldDesignator=D3 NewDesignator=D4
+Change Component Designator: OldDesignator=D4 NewDesignator=D5
+Change Component Designator: OldDesignator=D5 NewDesignator=D6
+Change Component Designator: OldDesignator=D6 NewDesignator=D7
+Change Component Designator: OldDesignator=D7 NewDesignator=D8
+Change Component Designator: OldDesignator=D8 NewDesignator=D9
+Change Component Designator: OldDesignator=D9 NewDesignator=D10
+Change Component Designator: OldDesignator=D13 NewDesignator=D1
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R3 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R6
+Change Component Designator: OldDesignator=R5 NewDesignator=R7
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R1
+Change Component Designator: OldDesignator=R14 NewDesignator=R2
+Change Component Designator: OldDesignator=R15 NewDesignator=R12
+Change Component Designator: OldDesignator=X1 NewDesignator=X5
+Change Component Designator: OldDesignator=X5 NewDesignator=X6
+Change Component Designator: OldDesignator=X6 NewDesignator=X1
+Added Component: Designator=X2(SCREW_TERMINAL_X4 2.54mm)
+Added Pin To Net: NetName=GPIO10 Pin=X2-1
+Added Pin To Net: NetName=GPIO9 Pin=X2-2
+Added Pin To Net: NetName=GPIO11 Pin=X2-3
+Added Pin To Net: NetName=GND Pin=X2-4
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetD2_2
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD3_2
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD4_2
+Change Net Name : Old Net Name=NetD4_2 New Net Name=NetD5_2
+Change Net Name : Old Net Name=NetD5_2 New Net Name=NetD6_2
+Change Net Name : Old Net Name=NetD6_2 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD8_2
+Change Net Name : Old Net Name=NetD8_2 New Net Name=NetD9_2
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetD10_2
+Change Net Name : Old Net Name=NetD13_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetR14_1 New Net Name=NetR2_1
+Change Net Name : Old Net Name=NetR15_2 New Net Name=NetR12_2
+Change Class Name : Old Net Name=KSS3 New Net Name=KSS_4_button
+Added Member To Class: ClassName=KSS_4_button Member=Component X2 Connector x4
