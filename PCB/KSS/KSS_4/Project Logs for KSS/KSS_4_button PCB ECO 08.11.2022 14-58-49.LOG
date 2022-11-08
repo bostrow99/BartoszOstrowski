@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=GPIO18 Pin=SW1-2
+Removed Pin From Net: NetName=GPIO23 Pin=SW2-2
+Removed Pin From Net: NetName=GPIO24 Pin=SW3-2
+Removed Pin From Net: NetName=GPIO25 Pin=SW4-2
+Removed Pin From Net: NetName=GPIO8 Pin=SW5-2
+Removed Pin From Net: NetName=GPIO7 Pin=SW6-2
+Removed Pin From Net: NetName=GPIO12 Pin=SW7-2
+Removed Pin From Net: NetName=GPIO16 Pin=SW8-2
+Removed Pin From Net: NetName=GPIO20 Pin=SW9-2
+Removed Pin From Net: NetName=GPIO3 Pin=X3-2
+Removed Pin From Net: NetName=GPIO2 Pin=X3-3
+Removed Pin From Net: NetName=GPIO22 Pin=X4-4
+Removed Pin From Net: NetName=GPIO27 Pin=X4-5
+Removed Pin From Net: NetName=GPIO17 Pin=X4-6
+Removed Pin From Net: NetName=GPIO19 Pin=X6-5
+Removed Pin From Net: NetName=GPIO6 Pin=X6-6
+Removed Pin From Net: NetName=GPIO5 Pin=X6-7
+Removed Pin From Net: NetName=GPIO0 Pin=X6-8
+Added Pin To Net: NetName=GPIO2 Pin=SW1-2
+Added Pin To Net: NetName=GPIO3 Pin=SW2-2
+Added Pin To Net: NetName=GPIO4 Pin=SW3-2
+Added Pin To Net: NetName=GPIO17 Pin=SW4-2
+Added Pin To Net: NetName=GPIO22 Pin=SW6-2
+Added Pin To Net: NetName=GPIO0 Pin=SW7-2
+Added Pin To Net: NetName=GPIO5 Pin=SW8-2
+Added Pin To Net: NetName=GPIO6 Pin=SW9-2
+Added Pin To Net: NetName=GPI27 Pin=SW5-2
+Added Net: Name=GPI27
+Added Pin To Net: NetName=OUT_SIG_1 Pin=X3-3
+Added Net: Name=OUT_SIG_1
+Added Pin To Net: NetName=OUT_SIG_2 Pin=X3-2
+Added Net: Name=OUT_SIG_2
+Added Pin To Net: NetName=SIG_1 (LED) Pin=X4-6
+Added Net: Name=SIG_1 (LED)
+Added Pin To Net: NetName=SIG_2 (BUTTON) Pin=X4-5
+Added Net: Name=SIG_2 (BUTTON)
