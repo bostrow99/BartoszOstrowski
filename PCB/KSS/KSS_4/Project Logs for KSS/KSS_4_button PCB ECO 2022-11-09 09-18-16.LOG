@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=X? NewDesignator=X2
+Added Component: Designator=X3(CONNECTOR_8pin)
+Added Component: Designator=X4(CONNECTOR_8pin)
+Added Component: Designator=X6(CONNECTOR_8pin)
+Added Pin To Net: NetName=GPIO4 Pin=X3-1
+Added Pin To Net: NetName=OUT_SIG_2 Pin=X3-2
+Added Pin To Net: NetName=OUT_SIG_1 Pin=X3-3
+Added Pin To Net: NetName=3V3 Pin=X3-4
+Added Pin To Net: NetName=GND Pin=X3-5
+Added Pin To Net: NetName=GND Pin=X3-6
+Added Pin To Net: NetName=GPIO14 Pin=X3-7
+Added Pin To Net: NetName=GPIO15 Pin=X3-8
+Added Pin To Net: NetName=5V Pin=X4-1
+Added Pin To Net: NetName=GND Pin=X4-2
+Added Pin To Net: NetName=3V3 Pin=X4-3
+Added Pin To Net: NetName=SIG_2 (BUTTON) Pin=X4-5
+Added Pin To Net: NetName=SIG_1 (LED) Pin=X4-6
+Added Pin To Net: NetName=GND Pin=X4-7
+Added Pin To Net: NetName=GND Pin=X4-8
+Added Pin To Net: NetName=GND Pin=X6-1
+Added Pin To Net: NetName=GND Pin=X6-2
+Added Pin To Net: NetName=GPIO21 Pin=X6-3
+Added Pin To Net: NetName=GPIO1 Pin=X6-4
+Added Member To Class: ClassName=KSS_4_button Member=Component X3 ?
+Added Member To Class: ClassName=KSS_4_button Member=Component X4 ?
+Added Member To Class: ClassName=KSS_4_button Member=Component X6 ?

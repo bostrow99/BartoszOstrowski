@@ -1,0 +1,93 @@
+Added Component: Designator=C1(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP_0603)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=D11(LED_0603)
+Added Component: Designator=E1(IPEX)
+Added Component: Designator=L1(IND_0603)
+Add component (AddParameter): Name = "Inductance"; Value = "27nH"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES_0603)
+Add component (AddParameter): Name = "Resistance"; Value = "4.7k"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RES_0603)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RES_0603)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RES_0603)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RES_0603)
+Add component (AddParameter): Name = "Resistance"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=SW10(SS03-12D01-CG4)
+Added Component: Designator=U1(NEO-6M-0-001)
+Added Component: Designator=U2(TSSOP-8)
+Added Component: Designator=U3(SOT23_5_PIN)
+Added Component: Designator=X1(HEADER_1X5_M)
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=PPX Pin=D11-1
+Added Pin To Net: NetName=NetD11_2 Pin=D11-2
+Added Pin To Net: NetName=NetE1_1 Pin=E1-1
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Pin To Net: NetName=NetD11_2 Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R13-2
+Added Pin To Net: NetName=GPIO14 Pin=R14-1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=GPIO15 Pin=R15-1
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetL1_1 Pin=R16-1
+Added Pin To Net: NetName=NetE1_1 Pin=R16-2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=NetL1_2 Pin=R17-2
+Added Pin To Net: NetName=VCC Pin=SW10-1
+Added Pin To Net: NetName=NetC1_1 Pin=SW10-2
+Added Pin To Net: NetName=PPX Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=NetR17_1 Pin=U1-8
+Added Pin To Net: NetName=NetR17_1 Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-10
+Added Pin To Net: NetName=NetE1_1 Pin=U1-11
+Added Pin To Net: NetName=GND Pin=U1-12
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Pin To Net: NetName=GSDA Pin=U1-18
+Added Pin To Net: NetName=GSCL Pin=U1-19
+Added Pin To Net: NetName=NetR15_2 Pin=U1-20
+Added Pin To Net: NetName=NetR14_2 Pin=U1-21
+Added Pin To Net: NetName=3V3 Pin=U1-23
+Added Pin To Net: NetName=GND Pin=U1-24
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GSDA Pin=U2-5
+Added Pin To Net: NetName=GSCL Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=3V3 Pin=U2-8
+Added Pin To Net: NetName=NetC1_1 Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=NetC1_1 Pin=U3-3
+Added Pin To Net: NetName=3V3 Pin=U3-5
+Added Pin To Net: NetName=PPX Pin=X1-1
+Added Pin To Net: NetName=RX Pin=X1-2
+Added Pin To Net: NetName=TX Pin=X1-3
+Added Pin To Net: NetName=GND Pin=X1-4
+Added Pin To Net: NetName=VCC Pin=X1-5
+Added Member To Class: ClassName=KSS_4_GPS Member=Component C1 Capacitor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component C2 Capacitor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component D11 WH
+Added Member To Class: ClassName=KSS_4_GPS Member=Component E1 IPEX
+Added Member To Class: ClassName=KSS_4_GPS Member=Component L1 Inductor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component R13 Resistor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component R14 Resistor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component R15 Resistor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component R16 Resistor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component R17 Resistor
+Added Member To Class: ClassName=KSS_4_GPS Member=Component SW10 Switch_ON/ON_1CH
+Added Member To Class: ClassName=KSS_4_GPS Member=Component U1 NEO-6M-0-001
+Added Member To Class: ClassName=KSS_4_GPS Member=Component U2 24C32
+Added Member To Class: ClassName=KSS_4_GPS Member=Component U3 TC1015
+Added Member To Class: ClassName=KSS_4_GPS Member=Component X1 HEADER_X5

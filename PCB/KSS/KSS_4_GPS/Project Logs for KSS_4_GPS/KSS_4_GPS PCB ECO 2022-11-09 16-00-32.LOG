@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=L1 Old Footprint=DTPU047A5 New Footprint=IND_0603
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=X? NewDesignator=X1
+Added Room: Name=KSS_4_GPS

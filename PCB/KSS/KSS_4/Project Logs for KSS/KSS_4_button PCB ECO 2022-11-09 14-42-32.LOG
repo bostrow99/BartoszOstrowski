@@ -1,0 +1,20 @@
+Added Component: Designator=E1(IPEX)
+Added Component: Designator=SW10(SS03-12D01-CG4)
+Added Component: Designator=U2(TSSOP-8)
+Added Pin To Net: NetName=NetE1_1 Pin=E1-1
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=3V3 Pin=SW10-1
+Added Pin To Net: NetName=NetC1_1 Pin=SW10-2
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GSDA Pin=U2-5
+Added Pin To Net: NetName=GSCL Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=GPS PWR Pin=U2-8
+Added Member To Class: ClassName=KSS_4_button Member=Component E1 IPEX
+Added Member To Class: ClassName=KSS_4_button Member=Component SW10 Switch_ON/ON_1CH
+Added Member To Class: ClassName=KSS_4_button Member=Component U2 24C32

@@ -1,0 +1,39 @@
+Add Component: Footprint Not Found IPEX
+Added Component: Designator=L1(DTPU047A5)
+Add component (AddParameter): Name = "Inductance"; Value = "27nH"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SS03-12D01-CG4
+Add Component: Footprint Not Found TSSOP-8
+Add Component: Footprint Not Found NEO-6M-0-001
+Add Pin To Net: Unknown Pin: Pin E1-1
+Add Pin To Net: Unknown Pin: Pin E1-2
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Add Pin To Net: Unknown Pin: Pin SW10-1
+Add Pin To Net: Unknown Pin: Pin SW10-2
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U2-7
+Add Pin To Net: Unknown Pin: Pin U2-8
+Add Pin To Net: Unknown Pin: Pin U?-3
+Add Pin To Net: Unknown Pin: Pin U?-7
+Add Pin To Net: Unknown Pin: Pin U?-8
+Add Pin To Net: Unknown Pin: Pin U?-9
+Add Pin To Net: Unknown Pin: Pin U?-10
+Add Pin To Net: Unknown Pin: Pin U?-11
+Add Pin To Net: Unknown Pin: Pin U?-12
+Add Pin To Net: Unknown Pin: Pin U?-13
+Add Pin To Net: Unknown Pin: Pin U?-18
+Add Pin To Net: Unknown Pin: Pin U?-19
+Add Pin To Net: Unknown Pin: Pin U?-20
+Add Pin To Net: Unknown Pin: Pin U?-21
+Add Pin To Net: Unknown Pin: Pin U?-23
+Add Pin To Net: Unknown Pin: Pin U?-24
+Add Class Member: Failed to add class member : Component E1 IPEX
+Added Member To Class: ClassName=KSS_4_button Member=Component L1 Inductor
+Add Class Member: Failed to add class member : Component SW10 Switch_ON/ON_1CH
+Add Class Member: Failed to add class member : Component U2 24C32
+Add Class Member: Failed to add class member : Component U? NEO-6M-0-001
