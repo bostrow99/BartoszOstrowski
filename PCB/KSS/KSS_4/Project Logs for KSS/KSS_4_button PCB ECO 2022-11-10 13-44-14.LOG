@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=X3 Old Footprint=CONNECTOR_8pin New Footprint=HEADER_1X8_F
+Change Component Footprint: Designator=X4 Old Footprint=CONNECTOR_8pin New Footprint=HEADER_1X8_F
+Change Component Comment : Designator=X3 Old Comment=? New Comment=HEADER_X8
+Change Component Comment : Designator=X4 Old Comment=? New Comment=HEADER_X8
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=X? NewDesignator=X5
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR12_1
+Change Net Name : Old Net Name=NetR12_2 New Net Name=NetR11_2

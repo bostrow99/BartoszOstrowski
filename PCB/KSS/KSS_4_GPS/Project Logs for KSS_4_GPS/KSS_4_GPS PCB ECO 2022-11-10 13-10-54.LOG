@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=SW1-2
+Removed Member From Class: ClassName=KSS_4_GPS Member=SW1
+Added Pin To Net: NetName=NetC1_1 Pin=X1-5
+Change Net Name : Old Net Name=NetC1_1 New Net Name=VCC

@@ -2,3 +2,5 @@ Record=DiagramHierarchy|SourceDocument=KSS_4.MbsDoc|Kind=Multi-board Schematic M
 Record=SubProject|SourceDocument=KSS_4.MbsDoc|ProjectPath=KSS.PrjPcb
 Record=DiagramHierarchy|SourceDocument=KSS_4.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=KSS_4_info_LED.PrjPcb
 Record=SubProject|SourceDocument=KSS_4.MbsDoc|ProjectPath=KSS_4_info_LED.PrjPcb
+Record=DiagramHierarchy|SourceDocument=KSS_4.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\KSS_4_GPS\KSS_4_GPS.PrjPcb
+Record=SubProject|SourceDocument=KSS_4.MbsDoc|ProjectPath=..\KSS_4_GPS\KSS_4_GPS.PrjPcb

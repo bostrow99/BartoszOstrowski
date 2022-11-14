@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=X1 Old Footprint=GROVE_4_pin_2mm_socket New Footprint=GROVE_4_pin_2mm_socket_stright
+Change Component Footprint: Designator=D3 Old Footprint=LED_GREEN_3mm New Footprint=LED_RED_3mm
+Change Component Footprint: Designator=D2 Old Footprint=LED_YELLOW_3mm New Footprint=LED_RED_3mm
+Change Component Designator: OldDesignator=l NewDesignator=R2

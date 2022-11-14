@@ -95,7 +95,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -197,22 +197,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -301,7 +291,7 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -323,7 +313,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -395,7 +385,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -444,7 +434,7 @@ OutputDefault8=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -552,7 +542,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -596,7 +586,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -653,11 +643,16 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C368SeriesPCL
+TargetPrinter=HP8DF19B (HP DeskJet 3830 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -785,6 +780,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
@@ -1031,8 +1027,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=COMPONENTS_2022.IntLib
-ComponentDesignItemID0=Connector x4
-ComponentSymbolReference0=Connector x4
+ComponentDesignItemID0=Connector_x4
+ComponentSymbolReference0=Connector_x4
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
@@ -1073,31 +1069,31 @@ ParameterUpdate4=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=GOLDPIN_M_4X1_90
+ModelName0=Connector double
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=LED_0603
+ModelName1=GROVE_4_pin_2mm_socket
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=LED_1206
+ModelName2=LED_0603
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=LED_1206_DLC
+ModelName3=LED_1206
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=LED_GREEN_3mm
+ModelName4=LED_1206_DLC
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=LED_RED_3mm
+ModelName5=LED_GREEN_3mm
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=LED_SUPERFLUX_7.62x7.62
+ModelName6=LED_RED_3mm
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=LED_YELLOW_3mm
+ModelName7=LED_SUPERFLUX_7.62x7.62
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=PAD_X4_2.54
+ModelName8=LED_YELLOW_3mm
 ModelUpdate8=1
 ModelType9=PCBLIB
 ModelName9=RES 1206
@@ -1105,9 +1101,6 @@ ModelUpdate9=1
 ModelType10=PCBLIB
 ModelName10=RES_0603
 ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=SCREW_TERMINAL_X4 2.54mm
-ModelUpdate11=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
