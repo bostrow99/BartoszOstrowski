@@ -1,5 +1,0 @@
-Added Component: Designator=X1(USB_MICRO_B_940 KEYSTONE)
-Added Pin To Net: NetName=5V Pin=X1-1
-Added Pin To Net: NetName=GND Pin=X1-5
-Added Member To Class: ClassName=KSS_4_button Member=Component R12 Resistor
-Added Member To Class: ClassName=KSS_4_button Member=Component X1 USB_MICRO_B

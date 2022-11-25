@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=GPIO2 Pin=X3-1
-Removed Pin From Net: NetName=GND Pin=X3-3
-Removed Pin From Net: NetName=GPIO4 Pin=X3-6
-Added Pin To Net: NetName=GPIO4 Pin=X3-1
-Added Pin To Net: NetName=GPIO2 Pin=X3-3
-Added Pin To Net: NetName=GND Pin=X3-6
