@@ -1,0 +1,15 @@
+Added Component: Designator=D1(LED_2835)
+Added Component: Designator=R1(RES_0603)
+Add component (AddParameter): Name = "Resistance"; Value = "?"; VariantName = "[No Variations]"
+Added Component: Designator=X1(SCREW_TERMINAL_X2 5,08mm)
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=X1-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R1-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=X1-1
+Added Net: Name=NetR1_1
+Added Class: Name=LED_Indicator
+Added Room: Name=LED_Indicator
